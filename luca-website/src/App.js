@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomeSection from './components/home-section';
+import Navbar from "./components/Navbar/Navbar";
+
 
 class App extends React.Component {
   render() {
@@ -9,10 +10,8 @@ class App extends React.Component {
 
   return (
     <div className="App">
+          <Navbar />
           <HomeSection />
-
-
-      
     </div>
   );
   } 
