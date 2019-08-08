@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <div className={style.lucalogocontainer}>
+        <div className={style.logo}>
           <img className={style.logoimage} alt="Luca Logo" />
         </div>
         <nav className={style.navbar}>
