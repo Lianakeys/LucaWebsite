@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import style from "../components/Navbar.module.css";
+import style from "../Navbar/Navbar.module.css";
 
 class Navbar extends Component {
   render() {
@@ -11,11 +11,6 @@ class Navbar extends Component {
         </div>
         <nav className={style.navbar}>
           <ul className={style.navbox}>
-            <li className={style.navitem}>
-              <Link className={style.navlink} to="/">
-                Home
-              </Link>
-            </li>
             <li className={style.navitem}>
               <Link className={style.navlink} to="/WhyUs">
                 Why Us?
@@ -37,9 +32,9 @@ class Navbar extends Component {
               </Link>
             </li>
             <li className={style.navitem}>
-              <Link className={style.navlink} to="/SignUp">
-                Sign Up
-              </Link>
+              <button className={style.navbarbutton} to="/SignUp">
+                Sign Up for free
+              </button>
             </li>
           </ul>
         </nav>

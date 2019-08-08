@@ -1,10 +1,11 @@
 .navbar {
   display: flex;
+  flex-direction: row-reverse;
   width: 100vw;
   max-width: 100%;
   height: 65px;
+  /* background-color: #50e6c5; */
 }
-
 .navbox {
   text-align: center;
 }
@@ -24,12 +25,23 @@
 .navlink {
   color: rgb(12, 12, 12);
   text-decoration: none;
-  padding: 12px;
-  font-size: 30px;
+  padding: 12px 10px 12px 12px;
+  font-size: 18px;
   font-family: "roboto";
-  outline: none;
+  /* border-radius: 5px; */
 }
 
 .navlink:hover {
   color: blue;
+}
+
+.navbarbutton {
+  border-color: #50e6c5;
+  border-radius: 8px;
+  height: 50px;
+  left: 13px;
+  right: 36px;
+  font-size: 18px;
+  padding-right: 10px;
+  margin-right: 10px;
 }
