@@ -3,13 +3,14 @@
 .logo {
   display: flex;
   flex-direction: row;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin-right: 24rem;
 }
 
 .logoimage {
   width: 200px;
   height: auto;
+  margin-right: 2.8rem;
   /* background-color: yellow; */
 }
 
