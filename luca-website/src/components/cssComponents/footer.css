@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: flex-end;
     margin-top: 2.5rem;
+    margin-right: 30px;
     /* background-color: red; */
 }
 
@@ -64,7 +65,7 @@
 
   .footer-button-container {
     height: 3.15rem;
-    width: 160px;
+    width: 142px;
     background-color: #50E3C2;
     color: #203060;
     display: flex;
@@ -78,7 +79,8 @@
   }
 
   #footer-button {
-    padding-left: 1.5rem;
+    
+    padding-left: 1rem;
     font-size: 0.8rem;
     font-weight: semi-bold;
     box-shadow: none;
@@ -104,8 +106,40 @@
     align-items: center;
     height: 100px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
+
+.footer-navbox {
+    text-align: center;
+    display: flex;
+  /* justify-content: center; */
+    align-items: center;
+}
+
+.footer-navitem {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0.8rem;
+    padding: 10px 0 25px;
+    margin-right: 1rem;
+     /* background-color: red; */
+}
+
+.footer-logo-box {
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+    margin-left: 60px;
+    margin-right: 20px;
+  }
+  
+  .footer-luca-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 1.87rem;
+    /* background-color: yellow; */
+  }
 
 
 .footer-bottom-grid {
@@ -124,4 +158,8 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+}
+
+.copyright-font {
+    font-size: 0.7rem;
 }
