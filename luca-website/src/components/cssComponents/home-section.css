@@ -69,6 +69,7 @@
         padding: 2px;
         width: 60%;
         text-align: left;
+        color: rgba(35, 44, 68, 0.78);
         /* background-color: blue; */
         margin-left: 1.6rem;
       }
@@ -84,6 +85,8 @@
           margin-top: 2rem;
           border-radius: 8px; 
           text-align: center;
+          box-shadow: none;
+          border: solid #50E3C2 1px;
       }
       /* flex-direction: column; */
   
@@ -91,6 +94,8 @@
      #get {
          padding-left: 1.5rem;
          font-size: 0.8rem;
+         box-shadow: none;
+        
           /* text-align: center;
                 color: green; */
       }
@@ -98,7 +103,9 @@
      #get-1 {
          padding-left: 1.5rem;
          font-size: 0.8rem;
-         font-weight: bold;
+         font-weight: semi-bold;
+         box-shadow: none;
+         /* border: solid #50E3C2; */
           /* text-align: center;
                 color: green; */
       }

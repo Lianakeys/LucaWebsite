@@ -14,7 +14,7 @@ class HomeSection extends React.Component {
             </h6>
             <div className="home-notes">
               {" "}
-              LucaPlus makes transactions simpler, faster and smarter, whilst
+              <strong>LucaPlus</strong> makes transactions simpler, faster and smarter, whilst
               ensuring the integrity of the data{" "}
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
