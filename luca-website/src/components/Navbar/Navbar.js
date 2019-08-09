@@ -6,11 +6,13 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <div className={style.logo}>
-          <img className={style.logoimage} alt="Luca Logo" />
-        </div>
+       
         <nav className={style.navbar}>
+       
           <ul className={style.navbox}>
+            <div className={style.logo}>
+              <img className={style.logoimage} alt="Luca Logo" />
+            </div>
             <li className={style.navitem}>
               <Link className={style.navlink} to="/WhyUs">
                 Why Us?
@@ -22,16 +24,16 @@ class Navbar extends Component {
               </Link>
             </li>
             <li className={style.navitem}>
-              <Link className={style.navlink} to="/Contact Us">
+              <Link className={style.contactus} to="/Contact Us">
                 Contact Us
               </Link>
             </li>
-            <li className={style.navitem}>
+            <li className={style.navitemdiff}>
               <Link className={style.navlink} to="/Login">
                 Login
               </Link>
             </li>
-            <li className={style.navitem}>
+            <li className={style.navitemdiff}>
               <button className={style.navbarbutton} to="/SignUp">
                 Sign Up for free
               </button>

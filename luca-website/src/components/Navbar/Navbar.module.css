@@ -3,10 +3,14 @@
 .logo {
   display: flex;
   flex-direction: row;
+  background-color: yellow;
+  margin-right: 24rem;
 }
+
 .logoimage {
-  width: 460px;
+  width: 200px;
   height: auto;
+  /* background-color: yellow; */
 }
 
 .navbar {
@@ -37,6 +41,17 @@
   margin: 0;
   margin-top: 0.8rem;
   padding: 10px 0 25px;
+  margin-right: 1rem;
+  /* background-color: red; */
+}
+
+.navitemdiff {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 0.8rem;
+  padding: 10px 0 25px;
+  margin-right: 2rem;
   /* background-color: red; */
 }
 
@@ -47,7 +62,19 @@
   padding: 12px 10px 12px 12px;
   font-size: 18px;
   font-family: "roboto";
+  margin: 1rem;
   /* border-radius: 5px; */
+}
+
+.contactus {
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 10px 12px 12px;
+  font-size: 18px;
+  font-family: "roboto";
+  margin: 1rem;
+  margin-right: 10rem;
 }
 
 .navlink:hover {
@@ -61,6 +88,8 @@
   left: 13px;
   right: 36px;
   font-size: 18px;
-  padding-right: 10px;
+  padding: 15px;
+  /* padding-bottom: 10px; */
   margin-right: 10px;
 }
+
