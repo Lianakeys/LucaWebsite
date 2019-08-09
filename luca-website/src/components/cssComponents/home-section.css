@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100&display=swap');
 
 
+
 .home-page {
+    font-family: 'Open sans', sans-serif;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -76,12 +78,26 @@
           width: 160px;
           background-color: black;
           color: white;
-          margin-right: 31rem;
+          display: flex;
+          justify-content: flex-start;
+          margin-left: 1.5rem;
           margin-top: 2rem;
           border-radius: 8px; 
+          text-align: center;
       }
       /* flex-direction: column; */
   
   
+     #get {
+         padding-left: 1rem;
+          /* text-align: center;
+                color: green; */
+      }
+
+     #get-1 {
+         padding-left: 1rem;
+          /* text-align: center;
+                color: green; */
+      }
     
   
