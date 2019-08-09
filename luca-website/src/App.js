@@ -7,7 +7,8 @@ import Footer from "./components/footer";
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" >
+        <meta charset="UTF-8"></meta>
         <HomeSection />
         <Footer />
       </div>

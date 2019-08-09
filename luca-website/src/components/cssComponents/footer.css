@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
 }
 
 .footer-details-container {
@@ -31,6 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    color: #203060;
     /* background-color: blue; */
 }
 
@@ -40,6 +42,7 @@
     align-items: flex-end;
     margin-top: 2.5rem;
     margin-right: 30px;
+    font-family: 'Open sans', sans-serif;
     /* background-color: red; */
 }
 
@@ -48,6 +51,7 @@
     height: 2.5rem;
     border-radius: 5px;
     padding: 0.25rem;
+    padding-left: 20px;
     background: transparent;
     border-top: 1.5px solid !important;
     border-left: 1.5px solid !important;
@@ -60,6 +64,7 @@
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 0.8rem;
+    font-family: 'Open sans', sans-serif;
       /* border-bottom: solid black 5px; */
   }
 
@@ -82,8 +87,9 @@
     
     padding-left: 1rem;
     font-size: 0.8rem;
-    font-weight: semi-bold;
+    font-weight: bold;
     box-shadow: none;
+    font-family: 'Open sans', sans-serif;
     /* border: solid #50E3C2; */
      /* text-align: center;
            color: green; */
@@ -98,6 +104,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
+    /* background-color: red;  */
 }
 
 .footer-middle-links-container {
@@ -105,7 +112,7 @@
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100%;
+    width: 80%;
     /* background-color: red; */
 }
 
@@ -114,6 +121,7 @@
     display: flex;
   /* justify-content: center; */
     align-items: center;
+    /* background-color: red; */
 }
 
 .footer-navitem {
@@ -157,7 +165,7 @@
     align-items: center;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: regular;
 }
 
 .copyright-font {
