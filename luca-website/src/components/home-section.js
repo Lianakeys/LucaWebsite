@@ -18,7 +18,16 @@ class HomeSection extends React.Component {
               ensuring the integrity of the data{" "}
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            <button className="home-button"><p id="get-1">Get started for free</p></button>
+            <div className="email-form">
+                <form className="form-inline" action="/"> 
+                    <input type="email" id="email" placeholder="Your email" name="email"></input>
+                </form>
+
+                <button className="home-button">
+                <p id="get-1">Get started</p>
+                </button>
+            </div>
+            
           </div>
           <div className="section-content">
             <h4>image inserted here</h4>
@@ -37,7 +46,7 @@ class HomeSection extends React.Component {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            <button className="home-button"><p id="get">Get started for free</p></button>
+            <button className="home-button"><p id="get">Get started</p></button>
           </div>
           <div className="section-content">
             <h4>image inserted here</h4>
