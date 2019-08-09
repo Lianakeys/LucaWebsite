@@ -2,6 +2,7 @@ import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
 import Navbar from "./Navbar/Navbar";
+
 class HomeSection extends React.Component {
   render() {
     return (
@@ -24,7 +25,7 @@ class HomeSection extends React.Component {
                 </form>
 
                 <button className="home-button">
-                <p id="get-1">Get started</p>
+                  <p id="get-1">Get started</p>
                 </button>
             </div>
             
