@@ -25,7 +25,7 @@ class HomeSection extends React.Component {
                 </form>
 
                 <button className="home-button">
-                  <p id="get-1">Get started</p>
+                  <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
                 </button>
             </div>
             

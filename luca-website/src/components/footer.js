@@ -3,6 +3,21 @@ import "./cssComponents/footer.css";
 import { Link } from "react-router-dom";
 import style from "./Navbar/Navbar.module.css";
 import LucaLOGO from './Luca-logo.svg'
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { library } from '@fortawesome/fontawesome-svg-core';
+
+// import { 
+//   faBoxingGlove as faBoxingGloveRegular 
+// } from '@fortawesome/regular-light-svg-icons';
+// import { 
+//   faBoxingGlove as faBoxingGloveSolid 
+// } from '@fortawesome/solid-light-svg-icons';
+
+// library.add(
+//     faBoxingGlove,
+// );
+
 
 class Footer extends React.Component {
     render() {
@@ -19,7 +34,7 @@ class Footer extends React.Component {
                                 <input type="email" id="footer-email" placeholder="Your email" name="email"></input>
                             </form>
                             <button className="footer-button-container">
-                                <p id="footer-button">Start free  ></p>
+                                <p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 bottom-2"/></p>
                             </button>
                         </div>
                     </div>
