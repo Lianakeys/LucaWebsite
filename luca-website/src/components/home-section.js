@@ -2,6 +2,7 @@ import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
 import Navbar from "./Navbar/Navbar";
+import heroimage from "./Hero-image.svg"
 
 class HomeSection extends React.Component {
   render() {
@@ -31,8 +32,8 @@ class HomeSection extends React.Component {
             
           </div>
           <div className="section-content">
-            <h4>image inserted here</h4>
-            <img src={luca} alt="luca-pic" className="Luca-pic" />
+            
+            <img src={heroimage} alt="hero" className="Hero-image" />
           </div>
         </div>
 
@@ -51,7 +52,7 @@ class HomeSection extends React.Component {
           </div>
           <div className="section-content">
             <h4>image inserted here</h4>
-            <img src={luca} alt="luca-pic" className="Luca-pic" />
+            <img src={heroimage} alt="hero" className="Hero-image" />
           </div>
         </div>
       </div>
