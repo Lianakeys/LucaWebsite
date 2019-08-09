@@ -5,41 +5,41 @@ import Navbar from "./Navbar/Navbar";
 class HomeSection extends React.Component {
   render() {
     return (
-      <div class="home-page">
+      <div className="home-page">
         <Navbar />
-        <div class="home section ">
-          <div class="section-title-box-left">
-            <h6 class="section-title">
+        <div className="home section ">
+          <div className="section-title-box-left">
+            <h6 className="section-title">
               The single source of truth for all transactions{" "}
             </h6>
-            <div class="home-notes">
+            <div className="home-notes">
               {" "}
               LucaPlus makes transactions simpler, faster and smarter, whilst
               ensuring the integrity of the data{" "}
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            <button class="home-button">Get started for free</button>
+            <button className="home-button"><p id="get-1">Get started for free</p></button>
           </div>
-          <div class="section-content">
+          <div className="section-content">
             <h4>image inserted here</h4>
             <img src={luca} alt="luca-pic" className="Luca-pic" />
           </div>
         </div>
 
-        <div class="how-it-works section ">
-          <div class="section-title-box-left">
-            <h6 class="section-title">
+        <div className="how-it-works section ">
+          <div className="section-title-box-left">
+            <h6 className="section-title">
               The single source of truth for all transactions{" "}
             </h6>
-            <div class="home-notes">
+            <div className="home-notes">
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            <button class="home-button">Get started for free</button>
+            <button className="home-button"><p id="get">Get started for free</p></button>
           </div>
-          <div class="section-content">
+          <div className="section-content">
             <h4>image inserted here</h4>
             <img src={luca} alt="luca-pic" className="Luca-pic" />
           </div>
