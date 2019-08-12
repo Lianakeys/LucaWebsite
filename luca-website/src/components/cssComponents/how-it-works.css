@@ -1,0 +1,135 @@
+.how-it-works-page {
+    font-family: 'Open sans', sans-serif;
+    height: auto;
+    flex-direction: column;
+  }
+
+.hiw-container {
+    height: 100vh;  
+    width: 100%;
+    margin: 0px;
+    /* padding: 20px; */
+    /* background-color: red; */
+    /*   
+    justify-content: space-evenly;
+    align-items: center;
+    */
+}
+
+
+.hiw-title-box {
+    /* margin-left: 30px; */
+    font-size: 50px;
+    /* text-align: left; */
+    /* background-color: green; */
+    height: 15rem;
+    width: 100%;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    line-height: 68px;
+    color: #203060;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+
+.icon-container {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.first-icon-box {
+    /* background-color: purple; */
+    height: 20rem;
+    width: 5rem;
+    margin-left: 25rem;
+}
+
+.first-icon-notes {
+    height: 4rem;
+    width: 9rem;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.hiw-first-notes {
+    margin-left: -80px;
+    color: #1F3161;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.second-icon-box {
+    /* background-color: purple; */
+    height: 20rem;
+    width: 5rem;
+    margin-left: -0.8rem;
+    margin-top: 3rem;
+
+}
+
+.second-icon-notes {
+    height: 4rem;
+    width: 8rem;
+    text-align: center;
+    
+    /* background-color: green; */
+}
+
+.hiw-second-notes {
+    margin-left: -60px;
+    color: #1F3161;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.third-icon-box {
+    /* background-color: purple; */
+    height: 20rem;
+    width: 6rem;
+    margin-right: 25rem;
+   
+}
+
+.third-icon-notes {
+    height: 4rem;
+    width: 12rem;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.hiw-third-notes {
+    margin-left: -60px;
+    color: #1F3161;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.left-dashline-box {
+/* background-color: green; */
+margin-left: -1rem;
+
+}
+
+.right-dashline-box {
+    /* background-color: green; */
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    
+    }
