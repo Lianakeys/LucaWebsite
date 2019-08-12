@@ -1,7 +1,7 @@
 # LucaWebsite
 
 ## Deployed ##
-[Live App](https://5d4d0e296ba222ea559cfb35--luca-ledgerium.netlify.com/)
+[Live App](https://lianakeys.github.io/LucaWebsite/)
 
 ### __Front-end UI/UX design for Luca website__
 
