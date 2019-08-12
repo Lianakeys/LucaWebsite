@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/LucaWebsite/static/css/main.17cfa2a7.chunk.css",
-    "main.js": "/LucaWebsite/static/js/main.e7f46c6a.chunk.js",
-    "main.js.map": "/LucaWebsite/static/js/main.e7f46c6a.chunk.js.map",
+    "main.css": "/LucaWebsite/static/css/main.15fb67d3.chunk.css",
+    "main.js": "/LucaWebsite/static/js/main.b1b94867.chunk.js",
+    "main.js.map": "/LucaWebsite/static/js/main.b1b94867.chunk.js.map",
     "runtime~main.js": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js",
     "runtime~main.js.map": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js.map",
-    "static/js/2.75def320.chunk.js": "/LucaWebsite/static/js/2.75def320.chunk.js",
-    "static/js/2.75def320.chunk.js.map": "/LucaWebsite/static/js/2.75def320.chunk.js.map",
+    "static/js/2.60290e40.chunk.js": "/LucaWebsite/static/js/2.60290e40.chunk.js",
+    "static/js/2.60290e40.chunk.js.map": "/LucaWebsite/static/js/2.60290e40.chunk.js.map",
     "index.html": "/LucaWebsite/index.html",
-    "precache-manifest.a6152e7d29b5810f066a21cbb9577472.js": "/LucaWebsite/precache-manifest.a6152e7d29b5810f066a21cbb9577472.js",
+    "precache-manifest.1f975e7bcba9966c6b2c3264e7f2a89b.js": "/LucaWebsite/precache-manifest.1f975e7bcba9966c6b2c3264e7f2a89b.js",
     "service-worker.js": "/LucaWebsite/service-worker.js",
-    "static/css/main.17cfa2a7.chunk.css.map": "/LucaWebsite/static/css/main.17cfa2a7.chunk.css.map",
+    "static/css/main.15fb67d3.chunk.css.map": "/LucaWebsite/static/css/main.15fb67d3.chunk.css.map",
     "static/media/Hero-image.svg": "/LucaWebsite/static/media/Hero-image.f814a3b1.svg",
-    "static/media/Luca-logo.svg": "/LucaWebsite/static/media/Luca-logo.ec2df460.svg"
+    "static/media/Luca-logo.svg": "/LucaWebsite/static/media/Luca-logo.ec2df460.svg",
+    "static/media/firsticon.svg": "/LucaWebsite/static/media/firsticon.4a65c257.svg",
+    "static/media/left-dash-line.svg": "/LucaWebsite/static/media/left-dash-line.db93306b.svg",
+    "static/media/right-dash-line.svg": "/LucaWebsite/static/media/right-dash-line.a6a0069a.svg",
+    "static/media/secondicon.svg": "/LucaWebsite/static/media/secondicon.83990b1a.svg",
+    "static/media/thirdicon.svg": "/LucaWebsite/static/media/thirdicon.27c57a27.svg"
   }
 }
