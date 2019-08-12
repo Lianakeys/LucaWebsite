@@ -37,24 +37,7 @@ class HomeSection extends React.Component {
           </div>
         </div>
 
-        <div className="how-it-works section ">
-          <div className="section-title-box-left">
-            <h6 className="section-title">
-              The single source of truth for all transactions{" "}
-            </h6>
-            <div className="home-notes">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-            {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            <button className="home-button"><p id="get">Get started</p></button>
-          </div>
-          <div className="section-content">
-            <h4>image inserted here</h4>
-            <img src={heroimage} alt="hero" className="Hero-image" />
-          </div>
-        </div>
+      
       </div>
     );
   }

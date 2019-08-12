@@ -42,6 +42,31 @@ class Navbar extends Component {
               </button>
             </li>
           </ul>
+{/* 
+          <div id="menu-wrap">
+            <input type="checkbox" class="toggler"></input>
+            <div class="hamburger"></div>
+            <div className="menu">
+              <div>
+              <ul>
+
+
+                <li><a href="#">Why us</a></li>
+                <li><a href="#">Help centre</a></li>
+                <li><a href="#"></a>Contact us</li>
+                <li><a href="#"></a>Login</li>
+                <li><a href="#"></a></li>
+              </ul>
+
+
+              </div>
+
+
+
+            </div>
+
+          </div> */}
+
         </nav>
       </>
     );

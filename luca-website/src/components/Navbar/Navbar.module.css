@@ -7,6 +7,19 @@
   margin-right: 24rem;
 }
 
+
+/* 
+@media only screen and (max-width: 600px) {
+  .body{
+    background-color: red;
+    /* display: none; */
+  /* }  */
+
+  /* #menu-wrap {
+		display: block;
+	} */
+/* } */
+
 .logoimage {
   width: 200px;
   height: auto;
@@ -27,6 +40,7 @@
   /* line-height: 21px; */
   background-color: white;
   font-family: 'Open sans', sans-serif;
+  z-index: 1;
 
 }
 

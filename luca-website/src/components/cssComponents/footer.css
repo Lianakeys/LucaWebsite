@@ -24,7 +24,8 @@
     height: 18rem;
     width: 76rem;
     background-color: white;
-    
+    /* background-color: red; */
+    box-shadow: -8px -8px 29px rgba(194, 207, 241, 0.109488), 6px 6px 29px rgba(194, 207, 241, 0.220533);
 }
 
 .footer-details-notes {
@@ -105,6 +106,7 @@
     align-items: center;
     margin-top: 6rem;
     /* background-color: red;  */
+    /* height: 100%; */
 }
 
 .footer-middle-links-container {
@@ -122,6 +124,7 @@
   /* justify-content: center; */
     align-items: center;
     /* background-color: red; */
+    margin-right: 60px;
 }
 
 .footer-navitem {
@@ -130,7 +133,7 @@
     margin: 0;
     margin-top: 0.8rem;
     padding: 10px 0 25px;
-    margin-right: 1rem;
+    margin-right: 2rem;
      /* background-color: red; */
 }
 
@@ -145,7 +148,7 @@
   .footer-luca-logo {
     width: 200px;
     height: auto;
-    margin-right: 1.87rem;
+    margin-right: 2.5rem;
     /* background-color: yellow; */
   }
 
