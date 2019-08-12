@@ -2,7 +2,7 @@ import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
 import Navbar from "./Navbar/Navbar";
-import heroimage from "./Hero-image.svg"
+import heroimage from "./hero-image.svg"
 
 class HomeSection extends React.Component {
   render() {
