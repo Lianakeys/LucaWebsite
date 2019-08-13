@@ -3,8 +3,9 @@
 .logo {
   display: flex;
   flex-direction: row;
-  /* background-color: yellow; */
-  margin-right: 24rem;
+  background-color: yellow;
+  margin-right: 35rem;
+  margin-bottom: 9.5rem;
 }
 
 
@@ -24,6 +25,7 @@
   width: 200px;
   height: auto;
   margin-right: 1.87rem;
+  position: fixed;
   /* background-color: yellow; */
 }
 
@@ -41,6 +43,7 @@
   background-color: white;
   font-family: 'Open sans', sans-serif;
   z-index: 1;
+  box-shadow: 1px 1px 8px #EEF0F4;
 
 }
 

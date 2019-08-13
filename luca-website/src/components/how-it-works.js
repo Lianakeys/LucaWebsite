@@ -49,7 +49,7 @@ class HowItWorks extends Component {
                             </div>
                         </div>
                     </div>
-                    <h1>testing</h1>
+                   
                 </div>
 
 

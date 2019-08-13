@@ -44,6 +44,16 @@
       justify-content: center;
       align-items: center;
     } 
+
+    .greenbox {
+      position: absolute;
+      width: 483px;
+      height: 26px;
+      /* left: 122px; */
+      top: 475px;
+      background: #50E3C2;
+      z-index: -1;
+    }
    
       /* hr {
         width: 50px;
@@ -147,4 +157,15 @@
 
   .finger-pointer {
     margin: 2px;
+  }
+
+  .Xero-icon {
+    margin-top: 5rem;
+
+  }
+
+  .Hero-image {
+    margin-top: 9rem;
+    margin-right: 6rem;
+    /* height: 100px; */
   }
