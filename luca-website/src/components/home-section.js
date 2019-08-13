@@ -2,7 +2,8 @@ import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
 import Navbar from "./Navbar/Navbar";
-import heroimage from "./hero-image.svg"
+import heroimage from "./Hero-image.svg"
+import xeroicon from "./Xero-icon.svg"
 
 class HomeSection extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class HomeSection extends React.Component {
           <div className="section-title-box-left">
             <h6 className="section-title">
               The single source of truth for all transactions{" "}
+              <div className="greenbox"></div>
             </h6>
             <div className="home-notes">
               {" "}
@@ -34,6 +36,7 @@ class HomeSection extends React.Component {
           <div className="section-content">
             
             <img src={heroimage} alt="hero" className="Hero-image" />
+            <img src={xeroicon} alt="hero" className="Xero-icon" />
           </div>
         </div>
 
