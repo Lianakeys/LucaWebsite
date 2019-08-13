@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3965eeb603af4133f8e993f28ed070f3",
+    "revision": "8a3298d3266874f4cce3ad2b7a397a88",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "0c98329a061161374288",
-    "url": "/LucaWebsite/static/css/main.c41a78e6.chunk.css"
+    "revision": "df4fceff86589f0b295d",
+    "url": "/LucaWebsite/static/css/main.9e82192e.chunk.css"
   },
   {
-    "revision": "51f41b499bfdb0fc31e7",
-    "url": "/LucaWebsite/static/js/2.2aa2bdb8.chunk.js"
+    "revision": "ec16d029546340b3ef1a",
+    "url": "/LucaWebsite/static/js/2.cbe01b9b.chunk.js"
   },
   {
-    "revision": "0c98329a061161374288",
-    "url": "/LucaWebsite/static/js/main.076a0043.chunk.js"
+    "revision": "df4fceff86589f0b295d",
+    "url": "/LucaWebsite/static/js/main.845ba6cc.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
     "url": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js"
   },
   {
+    "revision": "75147adfc97cb4def4bde8f2a5cebbba",
+    "url": "/LucaWebsite/static/media/Hero-image.75147adf.svg"
+  },
+  {
     "revision": "ec2df460e96046debb052642300f74d3",
     "url": "/LucaWebsite/static/media/Luca-logo.ec2df460.svg"
   },
   {
-    "revision": "4a65c257f48509bcdfebba7f6dd30436",
-    "url": "/LucaWebsite/static/media/firsticon.4a65c257.svg"
+    "revision": "b5b676b571203c71d66e385e4d5557eb",
+    "url": "/LucaWebsite/static/media/Xero-icon.b5b676b5.svg"
   },
   {
-    "revision": "b0891173330fdc46ed0e1dfbabb09482",
-    "url": "/LucaWebsite/static/media/hero-image.b0891173.svg"
+    "revision": "4a65c257f48509bcdfebba7f6dd30436",
+    "url": "/LucaWebsite/static/media/firsticon.4a65c257.svg"
   },
   {
     "revision": "db93306be4dd863fa968f781a0929de2",
