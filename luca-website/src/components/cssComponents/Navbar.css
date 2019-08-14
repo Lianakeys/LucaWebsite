@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100&display=swap');
 
 .logo {
-  display: flex;
-  flex-direction: row;
-  background-color: yellow;
-  margin-right: 35rem;
-  margin-bottom: 9.5rem;
+  /* background-color: blue; */
+  margin-right: 26.2rem;
 }
-
 
 /* 
 @media only screen and (max-width: 600px) {
@@ -22,10 +18,10 @@
 /* } */
 
 .logoimage {
-  width: 200px;
-  height: auto;
-  margin-right: 1.87rem;
-  position: fixed;
+  width: 180px;
+  /* height: auto; */
+  /* margin-right: 1.87rem; */
+  /* position: fixed; */
   /* background-color: yellow; */
 }
 

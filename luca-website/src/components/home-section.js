@@ -1,7 +1,6 @@
 import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
-import Navbar from "./Navbar/Navbar";
 import heroimage from "./Hero-image.svg";
 import xeroicon from "./Xero-icon.svg";
 import myobicon from "./Myob-icon.svg";
@@ -10,7 +9,6 @@ class HomeSection extends React.Component {
   render() {
     return (
       <div className="home-page">
-        <Navbar />
         <div className="home section ">
           <div className="section-title-box-left">
             <h6 className="section-title">

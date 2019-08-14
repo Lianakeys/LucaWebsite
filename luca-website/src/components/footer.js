@@ -1,7 +1,7 @@
 import React from "react";
 import "./cssComponents/footer.css";
 import { Link } from "react-router-dom";
-import style from "./Navbar/Navbar.module.css";
+import style from "./cssComponents/Navbar.css";
 import LucaLOGO from './Luca-logo.svg'
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
