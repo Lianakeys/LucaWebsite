@@ -160,12 +160,20 @@
   }
 
   .Xero-icon {
-    margin-top: 5rem;
+    margin-top: 0rem;
 
   }
 
   .Hero-image {
-    margin-top: 9rem;
+    margin-top: 10rem;
     margin-right: 6rem;
     /* height: 100px; */
+  }
+
+  .Myob-icon {
+    margin-top: 1rem;
+    margin-right: 48rem;
+    /* height: 100px; */
+    /* position: absolute; */
+
   }

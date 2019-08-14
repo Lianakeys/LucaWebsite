@@ -2,8 +2,9 @@ import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
 import Navbar from "./Navbar/Navbar";
-import heroimage from "./Hero-image.svg"
-import xeroicon from "./Xero-icon.svg"
+import heroimage from "./Hero-image.svg";
+import xeroicon from "./Xero-icon.svg";
+import myobicon from "./Myob-icon.svg";
 
 class HomeSection extends React.Component {
   render() {
@@ -36,6 +37,7 @@ class HomeSection extends React.Component {
           <div className="section-content">
             
             <img src={heroimage} alt="hero" className="Hero-image" />
+            <img src={myobicon} alt="hero" className="Myob-icon" />
             <img src={xeroicon} alt="hero" className="Xero-icon" />
           </div>
         </div>
