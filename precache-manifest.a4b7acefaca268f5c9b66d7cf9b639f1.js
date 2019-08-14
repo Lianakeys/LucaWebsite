@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a3298d3266874f4cce3ad2b7a397a88",
+    "revision": "d9407dcb4c36c24b50b787604f481efc",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "df4fceff86589f0b295d",
-    "url": "/LucaWebsite/static/css/main.9e82192e.chunk.css"
+    "revision": "ba34b7b159ae9894e113",
+    "url": "/LucaWebsite/static/css/main.5f04d8ae.chunk.css"
   },
   {
-    "revision": "ec16d029546340b3ef1a",
-    "url": "/LucaWebsite/static/js/2.cbe01b9b.chunk.js"
+    "revision": "174a7a376ab7ecc6d9f0",
+    "url": "/LucaWebsite/static/js/2.329e1b0a.chunk.js"
   },
   {
-    "revision": "df4fceff86589f0b295d",
-    "url": "/LucaWebsite/static/js/main.845ba6cc.chunk.js"
+    "revision": "ba34b7b159ae9894e113",
+    "url": "/LucaWebsite/static/js/main.eb6f8e3b.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec2df460e96046debb052642300f74d3",
     "url": "/LucaWebsite/static/media/Luca-logo.ec2df460.svg"
+  },
+  {
+    "revision": "08a3e3cf176c71451825e9bf55cbd170",
+    "url": "/LucaWebsite/static/media/Myob-icon.08a3e3cf.svg"
   },
   {
     "revision": "b5b676b571203c71d66e385e4d5557eb",
