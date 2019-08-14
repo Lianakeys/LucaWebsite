@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9407dcb4c36c24b50b787604f481efc",
+    "revision": "add19fedbbe2e0d48a02b6dad589b885",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "ba34b7b159ae9894e113",
-    "url": "/LucaWebsite/static/css/main.5f04d8ae.chunk.css"
+    "revision": "1f2db1cf7d74581d28d8",
+    "url": "/LucaWebsite/static/css/main.bffd3ff5.chunk.css"
   },
   {
-    "revision": "174a7a376ab7ecc6d9f0",
-    "url": "/LucaWebsite/static/js/2.329e1b0a.chunk.js"
+    "revision": "459f68de2bbc742bf314",
+    "url": "/LucaWebsite/static/js/2.eb5b8181.chunk.js"
   },
   {
-    "revision": "ba34b7b159ae9894e113",
-    "url": "/LucaWebsite/static/js/main.eb6f8e3b.chunk.js"
+    "revision": "1f2db1cf7d74581d28d8",
+    "url": "/LucaWebsite/static/js/main.f59c1635.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
