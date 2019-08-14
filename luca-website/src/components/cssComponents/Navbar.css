@@ -159,3 +159,12 @@
       transform: translateY(-10px);
   }
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .navbar{
+    /* background-color: red; */
+    margin-left: -6rem;
+  }
+
+}

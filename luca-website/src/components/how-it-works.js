@@ -42,7 +42,7 @@ class HowItWorks extends Component {
                             </div>
 
                             <div className="third-icon-box">
-                                <img src={thirdIcon} alt="hero" className="Hero-image" />
+                                <img src={thirdIcon} alt="hero" className="third-icon-image" />
                                 <div className="third-icon-notes">
                                     <h6 className="hiw-third-notes">LucaPlus updates all the transaction details automatically at your accounting platforms.</h6>
                                 </div>
