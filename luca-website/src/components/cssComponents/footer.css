@@ -25,7 +25,6 @@
     width: 76rem;
     margin-top: 10rem;
     background-color: white;
-    z-index: 1;
     box-shadow: -8px -8px 29px rgba(194, 207, 241, 0.109488), 6px 6px 29px rgba(194, 207, 241, 0.220533);
 }
 
@@ -200,9 +199,9 @@
     background-color: white;
     height: 120px;
     width: 1220px;
-    margin-left: 350px;
+    margin-left: 348px;
     margin-bottom: 9.2rem;
-    margin-top: -0.3rem;
-    box-shadow: -8px -8px 29px rgba(194, 207, 241, 0.109488), 6px 6px 29px rgba(194, 207, 241, 0.220533);
+    /* margin-top: -0.3rem; */
+    box-shadow: -8px 16px 20px rgba(194, 207, 241, 0.109488), 6px 18px 26px rgba(194, 207, 241, 0.220533);
     /* margin-left: 10rem; */
 }
