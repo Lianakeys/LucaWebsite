@@ -22,8 +22,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Footer extends React.Component {
     render() {
       return (
-
-
         <div className="footer-container">
             <div className="footer-grid-container">
                 <div className="footer-top-grid">
@@ -39,21 +37,23 @@ class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="footer-middle-grid">
+                
+                <div className="footer-middle-grid"> 
+                    <div className="middle-box-shadow"></div>
                     <div className="footer-middle-links-container">
                         <ul className="footer-navbox">
                             <li className="footer-navitem">
-                                <Link className={style.navlink} to="/Product">
+                                <Link className="navlink" to="/Product">
                                     Product
                                 </Link>
                             </li>
                             <li className="footer-navitem">
-                                <Link className={style.navlink} to="/Features">
+                                <Link className="navlink" to="/Features">
                                     Features
                                 </Link>
                             </li>
                             <li className="footer-navitem">
-                                <Link className={style.navlink} to="/Support">
+                                <Link className="navlink" to="/Support">
                                     Support
                                 </Link>
                             </li>
@@ -63,27 +63,31 @@ class Footer extends React.Component {
                                 {/* <SVG /> */}
                             </div>
                             <li className="footer-navitem">
-                                <Link className={style.navlink} to="/About">
+                                <Link className="navlink" to="/About">
                                     About
                                 </Link>
                             </li>
                             <li className="footer-navitem">
-                                <Link className={style.navlink} to="/Blog">
+                                <Link className="navlink" to="/Blog">
                                     Blog
                                 </Link>
                             </li>
                             <li className="footer-navitem">
-                                <Link className={style.navlink} to="/ContactUs">
+                                <Link className="navlink"to="/ContactUs">
                                     Contact us
                                 </Link>
                             </li>
                            
                         </ul>
+                       
                     </div>
                 </div>
-                <div className="footer-bottom-grid">
+                <div className="second-last-copyright-box">
+                    <p className="copyright-font">© Copyright 2019 Blockledger | Terms of Service | Privacy & Security</p>
+                </div>
+                <div className="footer-bottom-grid">                 
                     <div className="copyright-terms-box">
-                        <p className="copyright-font">© Copyright 2019 Blockledger | Terms of Service | Privacy & Security</p>
+                        <p className="most-bottom-font">Made with ❤️ by The Block Ledger</p>
                     </div>
                 </div>
             </div>

@@ -1,13 +1,13 @@
 .footer-container {
-    height: 35rem;
-    /* background-color: #203060; */
+    height: 50rem;
+    /* background-color: green; */
 }
 
 .footer-grid-container {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 0.5fr 0.42fr 0.08fr;
+    grid-template-rows: 0.6fr 0.42fr 0.08fr;
     /* background-color: #203060; */
 }
 
@@ -21,10 +21,10 @@
 }
 
 .footer-details-container {
-    height: 18rem;
+    height: 20rem;
     width: 76rem;
+    margin-top: 10rem;
     background-color: white;
-    /* background-color: red; */
     box-shadow: -8px -8px 29px rgba(194, 207, 241, 0.109488), 6px 6px 29px rgba(194, 207, 241, 0.220533);
 }
 
@@ -34,6 +34,7 @@
     justify-content: center;
     align-items: flex-end;
     color: #203060;
+    margin-top: 4rem;
     /* background-color: blue; */
 }
 
@@ -97,24 +98,25 @@
 
 
 .footer-middle-grid {
-    grid-row: (2,3);
-    background-color: white;
+    /* grid-row: (2,3);
+    background-color: white; */
     width: 100%;
-    display: flex;
+    height: 100%;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 6rem;
+    align-items: flex-end; */
     /* background-color: red;  */
     /* height: 100%; */
 }
 
 .footer-middle-links-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+    height: 30%;
     width: 80%;
-    /* background-color: red; */
+    /* background-color: purple; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    margin-left: 10rem;
 }
 
 .footer-navbox {
@@ -124,6 +126,7 @@
     align-items: center;
     /* background-color: red; */
     margin-right: 60px;
+    margin-left: 3rem;
 }
 
 .footer-navitem {
@@ -154,11 +157,15 @@
 
 .footer-bottom-grid {
     grid-row: (3,3);
-    /* background-color: red; */
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .copyright-terms-box {
-    height: 100%;
+    height: 38px;
     width: 100%;
     background-color: #203060;
     /* background-color: red;  */
@@ -170,6 +177,29 @@
     font-weight: regular;
 }
 
+.second-last-copyright-box {
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .copyright-font {
+    display: flex;
+    justify-content: center;
     font-size: 0.7rem;
+}
+
+.most-bottom-font {
+    font-size: 11px;
+}
+
+.middle-box-shadow {
+    /* background-color: red; */
+    height: 6rem;
+    width: 76rem;
+    margin-left: 10rem;
+    margin-bottom: 9.2rem;
+    box-shadow: -8px -8px 29px rgba(194, 207, 241, 0.109488), 6px 6px 29px rgba(194, 207, 241, 0.220533);
+    /* margin-left: 10rem; */
 }
