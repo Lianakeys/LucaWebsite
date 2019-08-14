@@ -196,10 +196,10 @@
 }
 
 .middle-box-shadow {
-    background-color: white;
+    /* background-color: red; */
     height: 120px;
     width: 1220px;
-    margin-left: 348px;
+    margin-left: 346.5px;
     margin-bottom: 9.2rem;
     /* margin-top: -0.3rem; */
     box-shadow: -8px 16px 20px rgba(194, 207, 241, 0.109488), 6px 18px 26px rgba(194, 207, 241, 0.220533);
