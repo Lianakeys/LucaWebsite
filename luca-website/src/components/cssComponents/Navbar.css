@@ -94,7 +94,11 @@
 }
 
 .navlink:hover {
-  color: blue;
+  color: #50e6c5;
+}
+
+.contactus:hover {
+  color: #50e6c5;
 }
 
 .navbarbutton {
