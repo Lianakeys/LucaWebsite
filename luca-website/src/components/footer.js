@@ -3,6 +3,9 @@ import "./cssComponents/footer.css";
 import { Link } from "react-router-dom";
 import style from "./cssComponents/Navbar.css";
 import LucaLOGO from './Luca-logo.svg'
+import twitter from './twitter.svg'
+import insta from './insta.svg'
+import facebook from './facebook.svg'
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { library } from '@fortawesome/fontawesome-svg-core';
@@ -80,6 +83,11 @@ class Footer extends React.Component {
                            
                         </ul>
                        
+                    </div>
+                    <div className="footer-social-media-container">
+                        <img src={twitter} className="twitter" alt="Luca Logo" />
+                        <img src={insta} className="insta" alt="Luca Logo" />
+                        <img src={facebook} className="facebook" alt="Luca Logo" />
                     </div>
                 </div>
                 <div className="second-last-copyright-box">

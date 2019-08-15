@@ -12,7 +12,7 @@ class New extends React.Component {
         <div className="home section ">
           <div className="section-title-box-left">
             <h6 className="section-title">
-              LucaPlus integrates into your existing accounting software
+              LucaPlus accounting software
               <div className="greenbox"></div>
             </h6>
             <div className="home-notes">
