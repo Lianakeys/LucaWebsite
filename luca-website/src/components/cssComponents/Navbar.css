@@ -187,19 +187,18 @@
   }
   .navbar{
     display: none;
-    margin-left: -6rem;
   }
 
   .logo-for-phone {
     display: block;
-    height: 25rem;
-    width: 32rem;
+    height: 7rem;
+    width: 10rem;
     background-color: red;
-    margin-left: 15rem;
+    margin-left: 5rem;
   }
 
   .logo-image-phone {
-    height: 35rem;
+    height: 10rem;
   }
 
 }
