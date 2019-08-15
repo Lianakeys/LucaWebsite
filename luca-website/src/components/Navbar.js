@@ -8,7 +8,10 @@ class Navbar extends Component {
   render() {
     return (
       <>
-       
+        <div className="logo-for-phone">
+              <img src={LucaLOGO} className="logo-image-phone" alt="Luca Logo" />
+              {/* <SVG /> */}
+        </div>
         <nav className="navbar">
           <ul className="navbox">
             <div className="logo">

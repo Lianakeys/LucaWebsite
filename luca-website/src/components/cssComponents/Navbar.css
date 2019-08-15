@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100&display=swap');
 
+.logo-for-phone {
+  display: none;
+}
+
 .logo {
   /* background-color: blue; */
   margin-right: 26.2rem;
@@ -169,6 +173,33 @@
   .navbar{
     /* background-color: red; */
     margin-left: -6rem;
+  }
+
+  .logo {
+    margin-right: 0rem;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+  .body {
+    background-color: black;
+  }
+  .navbar{
+    display: none;
+    margin-left: -6rem;
+  }
+
+  .logo-for-phone {
+    display: block;
+    height: 25rem;
+    width: 32rem;
+    background-color: red;
+    margin-left: 15rem;
+  }
+
+  .logo-image-phone {
+    height: 35rem;
   }
 
 }
