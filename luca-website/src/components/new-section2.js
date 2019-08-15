@@ -1,24 +1,21 @@
 import React from "react";
 import "./cssComponents/home-section.css";
 import luca from "../luca.jpeg";
-import heroimage from "./Hero-image.svg";
-import xeroicon from "./Xero-icon.svg";
-import myobicon from "./Myob-icon.svg";
+import savetime from "./savetime.svg";
 
-class New extends React.Component {
+class New2 extends React.Component {
   render() {
     return (
       <div className="home-page">
         <div className="home section ">
           <div className="section-title-box-left">
             <h6 className="section-title">
-              LucaPlus accounting software
+            Save time and cost as manual entry
               <div className="greenbox"></div>
             </h6>
             <div className="home-notes">
-              {" "}
-              <strong>LucaPlus</strong> makes transactions simpler, faster and smarter, whilst
-              ensuring the integrity of the data{" "}
+            LucaPlus creates an audit trail to monitor and track all transactions which have occurred so the data between
+both platforms syncs in realtime.  
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
             <div className="email-form">
@@ -34,16 +31,14 @@ class New extends React.Component {
           </div>
           <div className="section-content">
             
-            <img src={heroimage} alt="hero" className="Hero-image" />
-            <img src={myobicon} alt="hero" className="Myob-icon" />
-            <img src={xeroicon} alt="hero" className="Xero-icon" />
+            <img src={savetime} alt="hero" className="Hero-image" />
+           
           </div>
         </div>
 
-      
       </div>
     );
   }
 }
 
-export default New;
+export default New2;

@@ -1,0 +1,46 @@
+.savetime-section-title {
+    margin-left: 30px;
+    font-size: 40px;
+    text-align: left;
+    /* background-color: green; */
+    height: 65px;
+    width: 650px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    line-height: 68px;
+    color: #203060;
+    margin-top: 9rem;
+  }
+
+.time {
+    color: #50E3C2;
+}
+
+.cost {
+    color: #50E3C2;
+}
+
+.savetime-button {
+    height: 56px;
+    width: 180px;
+    background-color: white;
+    color: #203060;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px; 
+    /* text-align: center; */
+    box-shadow: none;
+    border: solid #50E3C2 1px;
+    /* padding-bottom: 10px; */
+}
+
+.dotted-section {
+    /* background-color: red; */
+    height: 350px;
+    width: 350px;
+    margin-right: 80rem;
+    margin-top : -15rem;
+
+}
