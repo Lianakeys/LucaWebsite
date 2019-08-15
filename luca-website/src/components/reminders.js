@@ -1,5 +1,6 @@
 import React from "react";
 import "./cssComponents/home-section.css";
+import "./cssComponents/savetime.css";
 import "./cssComponents/reminders.css";
 import luca from "../luca.jpeg";
 import calendar from "./calendar.svg";

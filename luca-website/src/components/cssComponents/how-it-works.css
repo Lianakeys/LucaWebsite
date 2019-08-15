@@ -40,10 +40,15 @@
     width: 100%;
     /* background-color: red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
 
 }
 
+.hiw-icon {
+    margin-left: 16rem;
+}
 
 .first-icon-box {
     /* background-color: purple; */
