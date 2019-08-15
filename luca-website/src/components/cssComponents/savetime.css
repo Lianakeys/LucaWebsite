@@ -39,6 +39,19 @@
     /* padding-bottom: 10px; */
 }
 
+.savetime-notes {
+  /* height: 20vh;   */
+  font-size: 18px;
+  height: 80px;
+  padding: 2px;
+  width: 60%;
+  text-align: left;
+  color: rgba(35, 44, 68, 0.78);
+  /* background-color: blue; */
+  margin-left: 1.6rem;
+  line-height: 190%;
+}
+
 .savetime-button:hover {
   
     background: #44c9ac;

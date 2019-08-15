@@ -14,7 +14,7 @@ class Savetime extends React.Component {
             <h6 className="savetime-section-title">
               Save <span className="time">time</span> and <span className="cost">cost</span> as manual entry is no longer required 
             </h6>
-            <div className="home-notes">
+            <div className="savetime-notes">
             LucaPlus creates an audit trail to monitor and track all transactions which have occurred so the data between
             both platforms syncs in realtime.  
             </div>
