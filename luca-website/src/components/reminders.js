@@ -14,10 +14,10 @@ class Reminder extends React.Component {
             <h6 className="reminders-section-title">
             Automatic <span className="time">reminders</span> to make sure your customers pay you faster
             </h6>
-            <div className="home-notes">
+            <div className="reminders-notes">
             As well as reminders for you to avoid late payment fees. You won’t miss paying any single invoice anymore.  
             </div>
-               <button className="savetime-button">
+               <button className="reminders-button">
                   <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
                 </button> 
           </div>

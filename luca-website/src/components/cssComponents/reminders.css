@@ -29,5 +29,33 @@
    */
   }
 
+  .reminders-notes {
+    /* height: 20vh;   */
+    font-size: 18px;
+    height: 80px;
+    padding: 2px;
+    width: 70%;
+    text-align: left;
+    color: rgba(35, 44, 68, 0.78);
+    /* background-color: blue; */
+    margin-left: 1.6rem;
+    margin-top: 0rem;
+    line-height: 31px;
+  }
 
+  .reminders-button {
+    height: 56px;
+    width: 180px;
+    background-color: white;
+    color: #203060;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 8px; 
+    /* text-align: center; */
+    box-shadow: none;
+    border: solid #50E3C2 1px;
+    /* padding-bottom: 10px; */
+}
   

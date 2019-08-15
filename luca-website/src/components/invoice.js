@@ -23,7 +23,7 @@ class Invoice extends React.Component {
             <div className="invoice-notes">
               Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
             </div>
-                <button className="savetime-button">
+                <button className="invoice-button">
                   <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
                 </button>
 
