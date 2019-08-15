@@ -213,13 +213,14 @@
 
 .most-bottom-font {
     font-size: 11px;
+    color:  #6D7797;
 }
 
 .middle-box-shadow {
     /* background-color: red; */
     height: 120px;
     width: 1216px;
-    margin-left: 345px;
+    margin-left: 360px;
     margin-bottom: 9.2rem;
     /* margin-top: -0.3rem; */
     box-shadow: -8px 16px 20px rgba(194, 207, 241, 0.109488), 6px 18px 26px rgba(194, 207, 241, 0.220533);
