@@ -1,44 +1,43 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./cssComponents/partner-integration.css";
+import integration from './pi.svg'
 
 class PartnerIntegration extends Component {
     render() {
       return (
-        <div className="home-page">
-        <div className="home section ">
-          <div className="section-title-box-left">
-            <h6 className="section-title">
-              The single source of truth for all transactions{" "}
-              <div className="greenbox"></div>
-            </h6>
-            <div className="home-notes">
-              {" "}
-              <strong>LucaPlus</strong> makes transactions simpler, faster and smarter, whilst
-              ensuring the integrity of the data{" "}
-            </div>
-            {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            <div className="email-form">
-                <form className="form-inline" action="/"> 
-                    <input type="email" id="email" placeholder="Your email" name="email"></input>
-                </form>
-
-                <button className="home-button">
-                  <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
-                </button>
-            </div>
+        <div className="partner-integration-page">
+            <div className="pi-container">
+                <div className="pi-left-container">
+                    <div className="pi-left-box">
+                        <img src={integration} alt="hero" className="pi-image" />
+                    </div>
+            {/* <div className="pi-right-grid">
+            <div className="annoying-box"></div> */}
+                </div>
             
-          </div>
-          <div className="section-content">
-{/*             
-            <img src={heroimage} alt="hero" className="Hero-image" />
-            <img src={myobicon} alt="hero" className="Myob-icon" />
-            <img src={xeroicon} alt="hero" className="Xero-icon" /> */}
-          </div>
-        </div>
+                <div className="pi-right-container">
+                    <div className="pi-right-box"></div>
+                    <div className="pi-annoying-box">
+                        <div className="pi-section-title-box">
+                            <h6 className="pi-section-title">
+                                LucaPlus integrates into your existing accounting software
+                            </h6>
+                            <div className="pi-notes">
+                            {" "}
+                            Integrating both platforms means you get two way data sharing.  This way you will always be in able see the latest information on the state of your accounts.
+                            </div>
+                            <button className="pi-button">
+                                <h2 id="pi-get-1">Connect now <span role="img" className="finger-pointer" aria-label="finger">🚀</span></h2>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
 
       
-      </div>
+        </div>
 
 
       )

@@ -5,6 +5,7 @@ import HomeSection from "./components/home-section";
 import Footer from "./components/footer";
 import HowItWorks from "./components/how-it-works";
 import PartnerIntegration from "./components/partner-integration";
+import New from "./components/new-section";
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <HomeSection />
         <HowItWorks />
         <PartnerIntegration />
+        <New />
         <Footer />
       </div>
     );
