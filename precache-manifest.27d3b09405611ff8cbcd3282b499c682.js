@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c723b20ca49d04ffa07d0147fc720f50",
+    "revision": "56c2b9e39c9c55682e05ec147c0b6306",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "3e001377b80ba00d4b44",
-    "url": "/LucaWebsite/static/css/main.3449feea.chunk.css"
+    "revision": "33e6e10714ba67310dac",
+    "url": "/LucaWebsite/static/css/main.9fc89bf4.chunk.css"
   },
   {
-    "revision": "2fc37154ab0eae8359c6",
-    "url": "/LucaWebsite/static/js/2.7563985c.chunk.js"
+    "revision": "3414945dc7412eccfe56",
+    "url": "/LucaWebsite/static/js/2.321a9532.chunk.js"
   },
   {
-    "revision": "3e001377b80ba00d4b44",
-    "url": "/LucaWebsite/static/js/main.a471988c.chunk.js"
+    "revision": "33e6e10714ba67310dac",
+    "url": "/LucaWebsite/static/js/main.cf8befb7.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/Xero-icon.b5b676b5.svg"
   },
   {
+    "revision": "edcb1f7dbffc907c5925e849dfbf36bb",
+    "url": "/LucaWebsite/static/media/calendar.edcb1f7d.svg"
+  },
+  {
     "revision": "1431afdeed078fa4c90876d17054c858",
     "url": "/LucaWebsite/static/media/dot.1431afde.svg"
   },
@@ -52,8 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/insta.f8983fb4.svg"
   },
   {
+    "revision": "385ef3a5726d38808335f2efc560f8f3",
+    "url": "/LucaWebsite/static/media/invoice.385ef3a5.svg"
+  },
+  {
     "revision": "db93306be4dd863fa968f781a0929de2",
     "url": "/LucaWebsite/static/media/left-dash-line.db93306b.svg"
+  },
+  {
+    "revision": "a929704b135cab1482a20ad70f30952c",
+    "url": "/LucaWebsite/static/media/magic.a929704b.svg"
   },
   {
     "revision": "069047c6761f416e3a53763a34d3be57",
