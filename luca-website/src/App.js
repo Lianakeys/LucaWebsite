@@ -6,9 +6,9 @@ import Footer from "./components/footer";
 import HowItWorks from "./components/how-it-works";
 import PartnerIntegration from "./components/partner-integration";
 import Savetime from "./components/savetime";
-import New2 from "./components/new-section2";
-import New3 from "./components/new-section3";
-import New4 from "./components/new-section4";
+import Invoice from "./components/invoice";
+import Reminder from "./components/reminders";
+import Magic from "./components/magic";
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
@@ -21,9 +21,9 @@ class App extends React.Component {
         <HowItWorks />
         <PartnerIntegration />
         <Savetime />
-        <New2 />
-        <New3 />
-        <New4 />
+        <Invoice />
+        <Reminder />
+        <Magic />
         <Footer />
       </div>
     );
