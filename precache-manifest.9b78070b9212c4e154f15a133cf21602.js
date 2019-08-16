@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "faf3217c279133e2eb5b10038bb707db",
+    "revision": "24d6b57c3b8484c64dc2b0624441ed07",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "ecbd8d6ecfd792be8d6c",
-    "url": "/LucaWebsite/static/css/main.db31281a.chunk.css"
+    "revision": "8dd309c6d35ccf958528",
+    "url": "/LucaWebsite/static/css/main.40b380ad.chunk.css"
   },
   {
     "revision": "446ebe072943b75cdf4f",
     "url": "/LucaWebsite/static/js/2.92f3dbca.chunk.js"
   },
   {
-    "revision": "ecbd8d6ecfd792be8d6c",
-    "url": "/LucaWebsite/static/js/main.ae139580.chunk.js"
+    "revision": "8dd309c6d35ccf958528",
+    "url": "/LucaWebsite/static/js/main.009a99d5.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a929704b135cab1482a20ad70f30952c",
     "url": "/LucaWebsite/static/media/magic.a929704b.svg"
+  },
+  {
+    "revision": "3eb9fb946b2349a5f0cf781fe2a448b7",
+    "url": "/LucaWebsite/static/media/partner.3eb9fb94.svg"
   },
   {
     "revision": "069047c6761f416e3a53763a34d3be57",
