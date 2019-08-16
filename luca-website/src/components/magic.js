@@ -36,7 +36,7 @@ class Magic extends React.Component {
          
         </div>
 
-        <div className="magic dotted-section">
+        <div className="magic-dotted-section">
             <img src={dot} alt="hero" className="Hero-image" />
         </div>
       </div>
