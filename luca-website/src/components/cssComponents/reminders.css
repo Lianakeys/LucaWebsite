@@ -58,4 +58,43 @@
     border: solid #50E3C2 1px;
     /* padding-bottom: 10px; */
 }
+
+
+.reminders-Hero-image {
+  margin-top: 10rem;
+  margin-right: 6rem;
+}
   
+
+@media only screen and (max-width: 1300px) {
+
+  .reminders-section-title {
+      /* background-color: red; */
+      /* margin-left: -8rem; */
+      font-size: 1.5rem;
+      width: 30rem;
+      line-height: 2.7rem;
+  }
+  
+  
+  .reminders-notes {
+      font-size: 0.78rem;
+  
+  }
+  
+  .reminders-button {
+      height: 2.4rem;
+      width: 6.7rem;
+      font-size: 0.45rem;
+      margin-top: 1rem;
+    }
+    
+    .reminders-Hero-image {
+      margin-top: 14rem;
+      margin-right: 0rem;
+      height: 17rem;
+    }
+    
+  
+  
+  }

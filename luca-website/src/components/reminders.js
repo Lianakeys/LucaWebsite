@@ -23,7 +23,7 @@ class Reminder extends React.Component {
           </div>
           <div className="section-content">
             
-            <img src={calendar} alt="hero" className="Hero-image" />
+            <img src={calendar} alt="hero" className="reminders-Hero-image" />
            
           </div>
         </div>

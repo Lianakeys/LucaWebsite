@@ -14,10 +14,10 @@ class Magic extends React.Component {
 
           <div className="section-content">
             
-            <img src={magic} alt="hero" className="Hero-image" />
+            <img src={magic} alt="hero" className="magic-Hero-image" />
            
           </div>
-          <div className="invoice-section-title-box-left">
+          <div className="magic-section-title-box-left">
             <h6 className="invoice-section-title">
             All these magic are <span className="time">FREE</span> to use
             </h6>
@@ -37,7 +37,7 @@ class Magic extends React.Component {
         </div>
 
         <div className="magic-dotted-section">
-            <img src={dot} alt="hero" className="Hero-image" />
+            <img src={dot} alt="hero" className="magic-dotted-image" />
         </div>
       </div>
     );

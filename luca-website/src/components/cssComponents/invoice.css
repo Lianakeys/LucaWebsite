@@ -79,3 +79,44 @@
     border: solid #50E3C2 1px;
     /* padding-bottom: 10px; */
 }
+
+.invoice-Hero-image {
+    margin-top: 7rem;
+    margin-right: 6rem;
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+.invoice-section {
+}
+
+.invoice-section-title-box-left {
+    /* background-color: red; */
+    margin-left: -8rem;
+}
+
+.invoice-section-title {
+    font-size: 1.5rem;
+}
+
+
+.invoice-notes {
+    font-size: 0.78rem;
+}
+
+.invoice-button {
+    height: 2.4rem;
+    width: 6.7rem;
+    font-size: 0.45rem;
+    margin-top: 1rem;
+  }
+  
+  .invoice-Hero-image {
+    margin-top: 14rem;
+    margin-right: 20rem;
+  }
+  
+
+
+}

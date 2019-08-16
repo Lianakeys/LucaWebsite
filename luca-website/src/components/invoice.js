@@ -12,7 +12,7 @@ class Invoice extends React.Component {
           
           <div className="invoice-section-content">
             
-            <img src={invoice} alt="hero" className="Hero-image" />
+            <img src={invoice} alt="hero" className="invoice-Hero-image" />
            
           </div>
 
