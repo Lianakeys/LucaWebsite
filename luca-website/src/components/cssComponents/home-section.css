@@ -220,3 +220,62 @@
 
   }
 
+
+
+  @media only screen and (max-width: 1300px) {
+
+
+    .section-title-box-left {
+      width: 40rem;
+      /* background-color: red; */
+      margin-left: 2.8rem;
+    }
+
+    .section-title {
+      /* background-color: red; */
+      font-size: 1.5rem;
+      width: 20rem;
+      line-height: 3rem;
+    }
+
+    .home-notes {
+      font-size: 0.8rem;
+      /* color: red; */
+    }
+
+    .greenbox {
+      margin-top: -5.5rem;
+      height: 0.8rem;
+      width: 14.5rem;
+    }
+
+    .Hero-image {
+      /* background-color: red; */
+      height: 21rem;
+      width: 30rem;
+    }
+
+    .Myob-icon {
+      margin-left: 20rem;
+      height: 3rem;
+    }
+
+    .Xero-icon {
+      height: 3rem;
+      margin-bottom: 5rem;
+    }
+
+    #email {
+      width: 1rem;
+    }
+
+    .home-button {
+      height: 2.5rem;
+      width: 7rem;
+    }
+
+    #get-1 {
+      font-size: 0.7rem;
+    }
+
+  }
