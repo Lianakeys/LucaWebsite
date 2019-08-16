@@ -253,3 +253,71 @@
   }
 
 }
+
+
+@media only screen and (max-width: 1300px) {
+
+.footer-container {
+    height: 70rem;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+.footer-grid-container {
+    width: 100%;
+}
+
+
+.footer-details-container {
+    /* background-color: red; */
+    width: 65%;
+
+}
+
+.footer-navbox {
+    width: 55rem;
+    margin-right: 8rem;
+    margin-left: -4.3rem;
+     /* background-color: red; */
+}
+
+.footer-social-media-container {
+    /* background-color: red; */
+    width: 10rem;
+    margin-top: -3rem;
+}
+
+.twitter {
+    margin-left: -5rem;
+}
+
+.footer-luca-logo {
+    height: 2.7rem;
+    margin-top: -1.5rem;
+    margin-right: -1rem;
+}
+
+.footer-navitem {
+    font-size: 0.1rem;
+    /* background-color: red; */
+   margin: 0rem;
+
+    
+}
+
+
+.second-last-copyright-box {
+    /* background-color: red; */
+    width: 82%;
+}
+
+.footer-top-grid {
+    width: 82%;
+}
+
+.copyright-terms-box {
+    /* background-color: red; */
+    width: 82%;
+}
+
+}

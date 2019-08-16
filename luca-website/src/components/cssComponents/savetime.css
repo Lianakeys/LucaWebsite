@@ -151,6 +151,71 @@
 }
 
 
+@media only screen and (max-width: 1400px) {
+
+  .savetime-section-title {
+    font-size: 1.5rem;
+    width: 25rem;
+    line-height: 2.7rem;
+  }
+  
+  .savetime-notes {
+    font-size: 0.78rem;
+    width: 26rem;
+  }
+  
+  .savetime-button {
+    height: 2.4rem;
+    width: 6.7rem;
+    font-size: 0.45rem;
+    margin-top: 2rem;
+  }
+  
+  .savetime-Hero-image {
+    margin-top: 14rem;
+  }
+  
+  .dotted-image {
+    margin-left: 18rem;
+  }
+  
+  
+  }
+
+
+
+@media only screen and (max-width: 1500px) {
+
+  .savetime-section-title {
+    font-size: 1.5rem;
+    width: 25rem;
+    line-height: 2.7rem;
+  }
+  
+  .savetime-notes {
+    font-size: 0.78rem;
+    width: 26rem;
+  }
+  
+  .savetime-button {
+    height: 2.4rem;
+    width: 6.7rem;
+    font-size: 0.45rem;
+    margin-top: 2rem;
+  }
+  
+  .savetime-Hero-image {
+    margin-top: 14rem;
+  }
+  
+  .dotted-image {
+    margin-left: 18rem;
+  }
+  
+  
+  }
+  
+  
 
 
 @media only screen and (max-width: 1680px) {
@@ -160,12 +225,5 @@
  /* background-color: red; */
  margin-right: 74rem;
 }
-
-
-
-
-
-
-
 
 }
