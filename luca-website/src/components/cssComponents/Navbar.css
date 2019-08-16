@@ -203,6 +203,48 @@
   }
 }
 
+@media only screen and (max-width: 1300px) {
+
+  .logoimage {
+    height: 5rem;
+    width: 6.8rem;
+    margin-left: -3rem;
+    /* background-color: red; */
+  }
+  
+  .navbox-for-three {
+    /* background-color: red; */
+    width: 450px;
+    margin-left: 8rem;
+  }
+
+  .navlink {
+    font-size: 0.8rem;
+  }
+
+  .contactus {
+    font-size: 0.8rem;
+  }
+
+  .navbox-for-two {
+    /* background-color: pink; */
+    width: 350px;
+  }
+
+  .navbarbutton {
+    height: 2.5rem;
+    width: 7.5rem;
+    font-size: 0.8rem;
+  }
+
+  .navbar {
+    /* background-color: red; */
+  }
+
+
+
+
+}
 
 @media only screen and (max-width: 1024px) {
   .navbar{
