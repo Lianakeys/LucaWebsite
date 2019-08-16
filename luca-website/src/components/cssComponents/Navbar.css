@@ -47,11 +47,16 @@
 
 }
 
-.navbox {
+.navbox-container {
   text-align: center;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
+}
+
+.navbox {
+
+  /* justify-content: center; */
+
 }
 
 .navitem {
@@ -165,6 +170,36 @@
   }
   50% {
       transform: translateY(-10px);
+  }
+}
+
+
+@media only screen and (max-width: 1680px) {
+  .navbar{
+    /* background-color: yellow; */
+    margin-left: -1rem;
+  }
+
+  .logo {
+    margin-right: 0rem;
+  }
+
+  .navitem {
+    margin-left: 0rem;
+  
+  }
+  .navbox-for-three {
+    /* background-color: red; */
+    margin-left: 20rem;
+  }
+
+  .navbox-for-two {
+    /* background-color: pink; */
+    margin-left: 5rem;
+  }
+
+  .contactus {
+    margin: 0rem;
   }
 }
 

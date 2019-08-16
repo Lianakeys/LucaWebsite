@@ -35,7 +35,7 @@ class Savetime extends React.Component {
         </div>
 
         <div className="dotted-section">
-            <img src={dot} alt="hero" className="Hero-image" />
+            <img src={dot} alt="hero" className="dotted-image" />
         </div>
       </div>
     );

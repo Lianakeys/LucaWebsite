@@ -145,3 +145,14 @@ margin-left: -1rem;
 .third-icon-image {
     margin-top: 9.2rem;
 }
+
+
+@media only screen and (max-width: 1680px) {
+
+.hiw-icon {
+    margin-left: 8rem;
+}    
+
+
+
+}

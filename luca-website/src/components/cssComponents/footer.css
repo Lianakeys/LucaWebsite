@@ -226,3 +226,28 @@
     box-shadow: -8px 16px 20px rgba(194, 207, 241, 0.109488), 6px 18px 26px rgba(194, 207, 241, 0.220533);
     /* margin-left: 10rem; */
 }
+
+@media only screen and (max-width: 1680px) {
+
+  .footer-navbox {
+      /* background-color: red; */
+      margin-left: -3rem;
+  }  
+
+
+  .footer-social-media-container {
+      /* background-color: red; */
+      display: block;
+ 
+  }
+
+  .twitter {
+      margin-left: 2.5rem;
+  }
+
+
+
+
+
+
+}

@@ -12,7 +12,9 @@
     margin-top: 9rem;
   }
 
-
+.dotted-image {
+ 
+}
 
 
 .time {
@@ -104,10 +106,27 @@
 
 .dotted-section {
     /* background-color: red; */
-    height: 350px;
-    width: 350px;
+    /* height: 350px;
+    /* width: 350px;
     margin-right: 96rem;
-    margin-top : -15rem;
-    float: left;
+    margin-top : -15rem; */
     
+}
+
+
+@media only screen and (max-width: 1680px) {
+
+    
+.dotted-section {
+ /* background-color: red; */
+ margin-right: 74rem;
+}
+
+
+
+
+
+
+
+
 }

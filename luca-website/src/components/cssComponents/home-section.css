@@ -162,7 +162,7 @@
   }
 
   .Xero-icon {
-    margin-top: 0rem;
+  
 
   }
 
@@ -179,6 +179,34 @@
     /* position: absolute; */
   }
 
+  @media only screen and (max-width: 1680px) {
+
+    
+    .greenbox {
+      margin-top: -1rem;
+    }
+
+
+    .Hero-image {
+      margin-left: 6rem;
+
+    }
+
+
+    .Xero-icon {
+
+    }
+
+
+
+
+  }
+
+
+
+
+
+
   @media only screen and (max-width: 1024px) {
     .section-title-box-left{
       /* background-color: red; */
@@ -191,3 +219,4 @@
     }
 
   }
+
