@@ -29,7 +29,7 @@ class Savetime extends React.Component {
           </div>
           <div className="section-content">
             
-            <img src={savetime} alt="hero" className="Hero-image" />
+            <img src={savetime} alt="hero" className="savetime-Hero-image" />
            
           </div>
         </div>
