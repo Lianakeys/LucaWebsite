@@ -183,7 +183,7 @@
 
     
     .greenbox {
-      margin-top: -1rem;
+      margin-top: 0.5rem;
     }
 
 
@@ -208,6 +208,7 @@
 
 
   @media only screen and (max-width: 1024px) {
+
     .section-title-box-left{
       /* background-color: red; */
       margin-left: 10rem;
