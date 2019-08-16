@@ -9,6 +9,7 @@ import Savetime from "./components/savetime";
 import Invoice from "./components/invoice";
 import Reminder from "./components/reminders";
 import Magic from "./components/magic";
+import Slider from "./components/slider";
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
         <Invoice />
         <Reminder />
         <Magic />
+        <Slider />
         <Footer />
       </div>
     );
