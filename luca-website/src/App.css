@@ -15,6 +15,9 @@ body{
 
 .Navbar {
   position: fixed;
+  /* background-color: red; */
+  height: 14vh;
+  width: 100vw;
 }
 
 .Homesection {
@@ -60,10 +63,6 @@ body{
 .hiw-icon {
   height: 52vh;
 }
-
-
-
-
 
 /* pricing section */
 

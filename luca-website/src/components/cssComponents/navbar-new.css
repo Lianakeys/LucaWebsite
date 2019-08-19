@@ -1,0 +1,45 @@
+.navbar-container {
+
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.logo-box {
+    height: 100%;
+    width: 19%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbox-for-four {
+    display: inline-block;
+    /* background-color: yellow; */
+    height: 90%;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.navlink {
+display: inline-block;
+list-style-type: none;
+/* background-color: green; */
+
+  color: rgb(12, 12, 12);
+  font-style: normal;
+font-weight: 600;
+  text-decoration: none;
+  /* padding: 12px 10px 12px 12px; */
+  font-size: 18px;
+  margin: 0.5rem;
+  margin-right: 2rem;
+  color: #203060;
+}
+
+.pricing-navlink {
+    /* background-color: red; */
+    margin-bottom: -5px;
+}

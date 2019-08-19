@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar"
+// import Navbar from "./components/Navbar"
+import Navbar from "./components/navbar-new"
 import HomeSection from "./components/home-section";
 import Footer from "./components/footer";
 import PartnerIntegration from "./components/partner-integration";
