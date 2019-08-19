@@ -9,6 +9,7 @@ body{
   width: 100vw;
   height: 100vh;
   margin: auto;
+  position: relative;
   /* overflow: hidden; */
 }
 
@@ -22,8 +23,15 @@ body{
 }
 
 .HIWsection {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
+}
+
+.Pricingsection {
+  height: 80vh;
+  width: 100vw;
+
+  /* background-color: red; */
 }
 
 .PIsection {

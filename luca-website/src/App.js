@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import HomeSection from "./components/home-section";
 import Footer from "./components/footer";
 import HowItWorks from "./components/how-it-works";
+import Pricing from "./components/pricing";
 import PartnerIntegration from "./components/partner-integration";
 import Savetime from "./components/savetime";
 import Invoice from "./components/invoice";
@@ -25,6 +26,9 @@ class App extends React.Component {
         </div>
         <div className="HIWsection">
         <HowItWorks />
+        </div>
+        <div className="Pricingsection">
+        <Pricing />
         </div>
         <div className="PIsection">
         <PartnerIntegration />
