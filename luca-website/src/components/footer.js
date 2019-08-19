@@ -7,6 +7,7 @@ import twitter from './twitter.svg'
 import insta from './insta.svg'
 import facebook from './facebook.svg'
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -44,6 +45,9 @@ class Footer extends React.Component {
                 <div className="footer-middle-grid"> 
                     <div className="middle-box-shadow"></div>
                     <div className="footer-middle-links-container">
+                        <div className="back-to-top">
+                            <FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-10" size="2x"/>
+                        </div>
                         <ul className="footer-navbox">
                             <li className="footer-navitem">
                                 <Link className="navlink" to="/Product">
