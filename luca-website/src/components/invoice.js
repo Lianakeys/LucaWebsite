@@ -1,5 +1,6 @@
 import React from "react";
 import "./cssComponents/home-section.css";
+import "./cssComponents/savetime.css";
 import "./cssComponents/invoice.css";
 import luca from "../luca.jpeg";
 import invoice from "./invoice.svg";
@@ -24,7 +25,7 @@ class Invoice extends React.Component {
               Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
             </div>
                 <button className="invoice-button">
-                  <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
+                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
                 </button>
 
           </div>

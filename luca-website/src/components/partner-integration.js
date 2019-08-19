@@ -28,7 +28,7 @@ class PartnerIntegration extends Component {
                             Integrating both platforms means you get two way data sharing.  This way you will always be in able see the latest information on the state of your accounts.
                             </div>
                             <button className="pi-button">
-                                <h2 id="pi-get-1">Connect now <span role="img" className="finger-pointer" aria-label="finger">🚀</span></h2>
+                                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="pi-get-1">Connect now <span role="img" className="finger-pointer" aria-label="finger">🚀</span></h2></a>
                             </button>
                         </div>
                     </div>

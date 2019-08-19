@@ -20,29 +20,15 @@
 .top-box {
     height: 50%;  
     width: 100%;
-    background-color: #203060;
+    /* background-color: #203060; */
 
 }
 
-.pricing-image-box {
-    height: 40%;
-    width: 30%;
-    /* background-color: pink; */
-    margin-top: -15.5rem;
-    margin-left: 29rem;
-}
-
-.pricing-icon {
-    /* height: 70%;
-    width: 10%; */
-    z-index: 5;
-
-}
 
 
 .pricing-dotted-section {
-    margin-top : 7.5rem;
-    margin-left: 4rem;
+    margin-top : -350px;
+    margin-left: 200px;
     z-index: 4;
 }
 
@@ -50,3 +36,22 @@
     margin-left: -2rem;
     z-index: 4;
 }
+
+
+
+
+
+/* .pricing-image-box {
+    height: 40%;
+    width: 30%; */
+    /* background-color: pink; */
+    /* margin-top: -15.5rem;
+    margin-left: 29rem;
+} */
+
+/* .pricing-icon { */
+    /* height: 70%;
+    width: 10%; */
+    /* z-index: 5;
+
+} */

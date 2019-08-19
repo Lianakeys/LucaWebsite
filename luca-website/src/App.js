@@ -11,6 +11,7 @@ import Invoice from "./components/invoice";
 import Reminder from "./components/reminders";
 import Magic from "./components/magic";
 import Slider from "./components/slider";
+import pricingicon from "./components/pricing.svg";
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
@@ -28,6 +29,9 @@ class App extends React.Component {
         <HowItWorks />
         </div>
         <div className="Pricingsection">
+          <div className="pricing-image-box">
+                <img src={pricingicon} alt="hero" className="pricing-icon" />
+          </div>
         <Pricing />
         </div>
         <div className="PIsection">

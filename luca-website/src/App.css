@@ -34,6 +34,19 @@ body{
   /* background-color: red; */
 }
 
+.pricing-image-box {
+    background-color: #203060;
+    height: 42vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-icon {
+  height: 60vh;
+  margin-top: 70px;
+}
+
 .PIsection {
   height: 100vh;
   width: 100vw;

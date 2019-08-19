@@ -8,21 +8,17 @@ class Pricing extends Component {
     render() {
       return (
 
-                <div className="pricing-page ">
+                <div className="pricing-page " >
+                   <a name="pricing"></a>
                     <div className="pricing-container">
                         <div className="top-box"></div>
-                        <div className="pricing-image-box">
-                            <img src={pricingicon} alt="hero" className="pricing-icon" />
-                        </div>
+                        
                         <div className="pricing-dotted-section">
                                 <img src={dot} alt="hero" className="pricing-dotted-image" />
                                 
                         </div>
                     </div>
                 </div>
-
-
-
 
       )
 

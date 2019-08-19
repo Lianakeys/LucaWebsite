@@ -20,14 +20,14 @@ class Navbar extends Component {
             </div>
            <div className="navbox-for-three">
               <li className="navitem">
-                <Link className="navlink" to="/WhyUs">
+                <a href="#pricing" className="navlink" to="/WhyUs">
                   Why us?
-                </Link>
+                </a>
               </li>
               <li className="navitem">
-                <Link className="navlink" to="/HelpCentre">
+                <a href="https://docs.theblockledger.net/" className="navlink" to="/HelpCentre">
                   Help centre
-                </Link>
+                </a>
               </li>
               <li className="navitem">
                 <Link className="contactus" to="/Contact Us">
@@ -37,13 +37,15 @@ class Navbar extends Component {
           </div>   
           <div className="navbox-for-two">
               <li className="navitemdiff">
-                <Link className="navlink" to="/Login">
+                <a href="https://luca.ledgerium.net/login" className="navlink" to="/Login">
                   Login
-                </Link>
+                </a>
               </li>
               <li className="navitemdiff">
-                <button className="navbarbutton" to="/SignUp">
+                <button className="navbarbutton" to="/SignUp" >
+                  <a href="https://luca.ledgerium.net/register" className="link-register">
                   Signup for free
+                  </a>
                 </button>
               </li>
           </div>

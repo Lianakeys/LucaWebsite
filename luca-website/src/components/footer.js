@@ -46,23 +46,23 @@ class Footer extends React.Component {
                     <div className="middle-box-shadow"></div>
                     <div className="footer-middle-links-container">
                         <div className="back-to-top">
-                            <FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-10" size="2x"/>
+                            <a href="#top"><FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-10" size="2x"/></a>
                         </div>
                         <ul className="footer-navbox">
                             <li className="footer-navitem">
-                                <Link className="navlink" to="/Product">
+                                <a className="navlink" href="#top">
                                     Product
-                                </Link>
+                                </a>
                             </li>
                             <li className="footer-navitem">
-                                <Link className="navlink" to="/Features">
+                                <a href="#hiw" className="navlink" to="/Features">
                                     Features
-                                </Link>
+                                </a>
                             </li>
                             <li className="footer-navitem">
-                                <Link className="navlink" to="/Support">
+                                <a href="https://docs.theblockledger.net/" className="navlink" to="/Support">
                                     Support
-                                </Link>
+                                </a>
                             </li>
                            
                             <div className="footer-logo-box">
@@ -75,9 +75,9 @@ class Footer extends React.Component {
                                 </Link>
                             </li>
                             <li className="footer-navitem">
-                                <Link className="navlink" to="/Blog">
+                                <a href="https://www.theblockledger.net/" className="navlink" to="/Blog">
                                     Blog
-                                </Link>
+                                </a>
                             </li>
                             <li className="footer-navitem">
                                 <Link className="navlink"to="/ContactUs">

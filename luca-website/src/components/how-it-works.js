@@ -14,6 +14,7 @@ class HowItWorks extends Component {
       return (
 
                 <div className="how-it-works-page ">
+                    <a name="hiw"></a>
                     <div className="hiw-container">
                         <div className="hiw-title-box">
                             <h6 className="hiw-title">

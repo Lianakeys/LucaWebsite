@@ -18,8 +18,8 @@ class Reminder extends React.Component {
             As well as reminders for you to avoid late payment fees. You won’t miss paying any single invoice anymore.  
             </div>
                <button className="reminders-button">
-                  <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
-                </button> 
+               <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
+               </button> 
           </div>
           <div className="section-content">
             

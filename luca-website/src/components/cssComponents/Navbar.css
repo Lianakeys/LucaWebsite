@@ -124,6 +124,11 @@
   margin-right: 10px;
 }
 
+.link-register {
+  text-decoration: none;
+  color: #203060
+}
+
 .navbarbutton:hover {
   
     background: #44c9ac;

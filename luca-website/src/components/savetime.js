@@ -22,7 +22,7 @@ class Savetime extends React.Component {
             
 
                 <button className="savetime-button">
-                  <h2 id="savetime-get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
+                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
                 </button>
           
             

@@ -9,9 +9,10 @@ class HomeSection extends React.Component {
   render() {
     return (
       <div className="home-page">
+        <a name="top"></a>
         <div className="home section ">
           <div className="section-title-box-left">
-            <h6 className="section-title">
+          <h6 className="section-title">
               The single source of truth for all transactions{" "}
               <div className="greenbox"></div>
             </h6>
@@ -27,7 +28,7 @@ class HomeSection extends React.Component {
                 </form>
 
                 <button className="home-button">
-                  <h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2>
+                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
                 </button>
             </div>
             
