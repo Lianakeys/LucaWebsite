@@ -20,13 +20,13 @@
 .top-box {
     height: 50%;  
     width: 100%;
-    /* background-color: #203060; */
+    /* background-color: red; */
 
 }
 
 
 
-.pricing-dotted-section {
+/* .pricing-dotted-section {
     margin-top : -350px;
     margin-left: 200px;
     z-index: 4;
@@ -35,7 +35,7 @@
 .pricing-dotted-image {
     margin-left: -2rem;
     z-index: 4;
-}
+} */
 
 
 

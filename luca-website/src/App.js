@@ -12,6 +12,7 @@ import Reminder from "./components/reminders";
 import Magic from "./components/magic";
 import Slider from "./components/slider";
 import pricingicon from "./components/pricing.svg";
+import dot from "./components/pricing-dot.svg";
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
@@ -32,7 +33,9 @@ class App extends React.Component {
           <div className="pricing-image-box">
                 <img src={pricingicon} alt="hero" className="pricing-icon" />
           </div>
-        <Pricing />
+        <div className="bottom-pricing-box">
+          <img src={dot} alt="hero" className="pricing-dotted-image" />
+        </div>
         </div>
         <div className="PIsection">
         <PartnerIntegration />
