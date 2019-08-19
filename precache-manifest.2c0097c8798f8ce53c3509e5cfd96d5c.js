@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "093462c8b554ee4b3aa574ce4904e8bd",
+    "revision": "b17ab788d2d9ba2a697252a88b2d71fb",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "a8255ee4964fd1d16dda",
-    "url": "/LucaWebsite/static/css/main.1c8b94dd.chunk.css"
+    "revision": "d23f5e16ff812263a8ce",
+    "url": "/LucaWebsite/static/css/main.a1b93af2.chunk.css"
   },
   {
-    "revision": "446ebe072943b75cdf4f",
-    "url": "/LucaWebsite/static/js/2.92f3dbca.chunk.js"
+    "revision": "b03e53bd78ea51ffb839",
+    "url": "/LucaWebsite/static/js/2.6074c161.chunk.js"
   },
   {
-    "revision": "a8255ee4964fd1d16dda",
-    "url": "/LucaWebsite/static/js/main.50dd6cb9.chunk.js"
+    "revision": "d23f5e16ff812263a8ce",
+    "url": "/LucaWebsite/static/js/main.3131dd3d.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -78,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "069047c6761f416e3a53763a34d3be57",
     "url": "/LucaWebsite/static/media/pi.069047c6.svg"
+  },
+  {
+    "revision": "de8605a2d087105c179e2406b9334123",
+    "url": "/LucaWebsite/static/media/pricing-dot.de8605a2.svg"
+  },
+  {
+    "revision": "0faa179d1430da5e3d3cc3599c2142dc",
+    "url": "/LucaWebsite/static/media/pricing.0faa179d.svg"
   },
   {
     "revision": "a6a0069a107fecf233d51d975e112903",
