@@ -103,8 +103,9 @@ body{
 }
 
 .Savetimesection {
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
+  /* background-color: red; */
 }
 .Invoicesection {
   height: 80vh;
