@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LucaWebsite/static/css/main.08cd4731.chunk.css",
+    "main.css": "/LucaWebsite/static/css/main.4bed0eff.chunk.css",
     "main.js": "/LucaWebsite/static/js/main.347589f5.chunk.js",
     "main.js.map": "/LucaWebsite/static/js/main.347589f5.chunk.js.map",
     "runtime~main.js": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js",
@@ -8,9 +8,9 @@
     "static/js/2.395d8c63.chunk.js": "/LucaWebsite/static/js/2.395d8c63.chunk.js",
     "static/js/2.395d8c63.chunk.js.map": "/LucaWebsite/static/js/2.395d8c63.chunk.js.map",
     "index.html": "/LucaWebsite/index.html",
-    "precache-manifest.bc94d9a1b1ef6e6ee5d92ad76a16e462.js": "/LucaWebsite/precache-manifest.bc94d9a1b1ef6e6ee5d92ad76a16e462.js",
+    "precache-manifest.bd98f530d730ee16fceb940a79b6d1c7.js": "/LucaWebsite/precache-manifest.bd98f530d730ee16fceb940a79b6d1c7.js",
     "service-worker.js": "/LucaWebsite/service-worker.js",
-    "static/css/main.08cd4731.chunk.css.map": "/LucaWebsite/static/css/main.08cd4731.chunk.css.map",
+    "static/css/main.4bed0eff.chunk.css.map": "/LucaWebsite/static/css/main.4bed0eff.chunk.css.map",
     "static/media/Hero-image.svg": "/LucaWebsite/static/media/Hero-image.75147adf.svg",
     "static/media/Luca-logo.svg": "/LucaWebsite/static/media/Luca-logo.33925c15.svg",
     "static/media/Myob-icon.svg": "/LucaWebsite/static/media/Myob-icon.08a3e3cf.svg",
