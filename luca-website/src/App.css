@@ -50,12 +50,13 @@ body{
 .bottom-pricing-box {
   height: 50%;  
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .pricing-dotted-image {
-  margin-top: 8rem;
-  width: 35rem;
+  margin-top: 10%;
+  width: 35%;
+  margin-left: 1%;
 }
 .PIsection {
   height: 100vh;
