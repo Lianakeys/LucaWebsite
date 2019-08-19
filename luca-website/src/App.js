@@ -3,8 +3,6 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 import HomeSection from "./components/home-section";
 import Footer from "./components/footer";
-import HowItWorks from "./components/how-it-works";
-import Pricing from "./components/pricing";
 import PartnerIntegration from "./components/partner-integration";
 import Savetime from "./components/savetime";
 import Invoice from "./components/invoice";
@@ -13,6 +11,7 @@ import Magic from "./components/magic";
 import Slider from "./components/slider";
 import pricingicon from "./components/pricing.svg";
 import dot from "./components/pricing-dot.svg";
+import hiwIconFull from "./components/hiw-icon-full.svg";
 // import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
@@ -27,7 +26,16 @@ class App extends React.Component {
         <HomeSection />
         </div>
         <div className="HIWsection">
-        <HowItWorks />
+          <a name="hiw"></a>
+            <div className="hiw-title-box">
+              <h6 className="hiw-title">
+              How LucaPlus Works{" "}
+              </h6>
+            </div>
+          {/* <HowItWorks /> */}
+          <div className="icon-container">
+            <img src={hiwIconFull} alt="hero" className="hiw-icon" />
+          </div>
         </div>
         <div className="Pricingsection">
           <div className="pricing-image-box">

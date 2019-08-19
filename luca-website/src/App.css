@@ -22,10 +22,50 @@ body{
   width: 100vw;
 }
 
+/* // hiw section */
 .HIWsection {
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
+  background-color: #F8F8F8;
 }
+
+.hiw-title-box {
+  /* margin-left: 30px; */
+  font-size: 50px;
+  /* text-align: left; */
+  /* background-color: green; */
+  height: 14rem;
+  width: 100%;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 700;
+  line-height: 68px;
+  color: #203060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon-container {
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* justify-content: space-evenly; */
+
+}
+
+.hiw-icon {
+  height: 52vh;
+}
+
+
+
+
+
+/* pricing section */
 
 .Pricingsection {
   height: 80vh;
