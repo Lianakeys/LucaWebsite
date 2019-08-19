@@ -14,7 +14,8 @@ $speed: 50s;
     height: $img-h * $ratio;
     background-image: url(../partner.svg);
     background-size: $img-w * $ratio $img-h * $ratio;
-    animation: slide $speed linear infinite;    
+    animation: slide $speed linear infinite;   
+    background-color: #979797; 
   }
 }
 
