@@ -4,7 +4,6 @@
 body{
   padding: 0;
   margin:0;
-  background-color: #f4f4f4;
 }
 .App{
   width: 100vw;
@@ -22,6 +21,42 @@ body{
   width: 100vw;
 }
 
+.HIWsection {
+  height: 100vh;
+  width: 100vw;
+}
+
+.PIsection {
+  height: 100vh;
+  width: 100vw;
+}
+
+.Savetimesection {
+  height: 100vh;
+  width: 100vw;
+}
+.Invoicesection {
+  height: 80vh;
+  width: 100vw;
+}
+.Remindersection {
+  height: 80vh;
+  width: 100vw;
+}
+.Magicsection {
+  height: 80vh;
+  width: 100vw;
+}
+.Slidersection {
+  height: 20vh;
+  width: 100vw;
+}
+
+.Footersection {
+  height: 100vh;
+  width: 100vw;
+  /* position: fixed; */
+}
 
 /* .App {
   text-align: center;

@@ -23,14 +23,30 @@ class App extends React.Component {
         <div className="Homesection">
         <HomeSection />
         </div>
+        <div className="HIWsection">
         <HowItWorks />
+        </div>
+        <div className="PIsection">
         <PartnerIntegration />
+        </div>
+        <div className="Savetimesection">
         <Savetime />
+        </div>
+        <div className="Invoicesection">
         <Invoice />
+        </div>
+        <div className="Remindersection">
         <Reminder />
+        </div>
+        <div className="Magicsection">
         <Magic />
+        </div>
+        <div className="Slidersection">
         <Slider />
+        </div>
+        <div className="Footersection">
         <Footer />
+        </div>
       </div>
     );
   }
