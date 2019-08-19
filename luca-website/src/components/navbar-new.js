@@ -26,12 +26,12 @@ class Navbar extends Component {
                     </a>
                 </li>
                 <li className="navlink">
-                    <Link className="contactus" to="/Contact Us">
+                    <Link className="navlink" to="/Contact Us">
                         Contact us
                     </Link>
                 </li>
                 <li className="navlink">
-                    <img src={pricinglink} className="pricing-navlink" alt="Luca Logo" />
+                    <a href="#pricing"><img src={pricinglink} className="pricing-navlink" alt="Luca Logo" /></a>
                 </li>
                 <li className="navlink">
                     <a href="https://luca.ledgerium.net/login" className="navlink" to="/Login">

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100&display=swap');
 
 .logo-for-phone {
   display: none;
@@ -6,9 +6,9 @@
 
 .logo {
   /* background-color: blue; */
-  margin-right: 26.2rem;
+  /* margin-right: 26.2rem;
   margin-left: 5.7rem;
-}
+}  */
 
 /* 
 @media only screen and (max-width: 600px) {
@@ -22,62 +22,58 @@
 	} */
 /* } */
 
-.logoimage {
-  width: 180px;
+/* .logoimage {
+  width: 180px; */
   /* height: auto; */
   /* margin-right: 1.87rem; */
   /* position: fixed; */
   /* background-color: yellow; */
-}
+/* } */
 
-.navbar {
+/* .navbar {
   display: flex;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
   /* max-width: 100%; */
-  height: 80px;
-  padding: 0.5rem;
+  /* height: 80px;
+  padding: 0.5rem; */
   /* line-height: 21px; */
-  background-color: white;
+  /* background-color: white;
   font-family: 'Open sans', sans-serif;
-  z-index: 10;
+  z-index: 10; */ */
   /* box-shadow: 1px 1px 8px #EEF0F4; */
 
-}
+/* } */
 
-.navbox-container {
+/* .navbox-container {
   text-align: center;
   display: flex;
   align-items: center;
-}
+} */
 
-.navbox {
 
-  /* justify-content: center; */
 
-}
-
-.navitem {
+/* .navitem {
   display: inline-block;
   list-style-type: none;
   margin-top: 0.8rem;
   padding: 10px 0 25px;
   margin-right: 1rem;
   /* background-color: red; */
-}
+/* } */
 
-.navitemdiff {
+/* .navitemdiff {
   display: inline-block;
   list-style-type: none;
   margin: 0;
   margin-top: 0.8rem;
   padding: 10px 0 25px;
   margin-right: 2rem;
-  color: #203060;
+  color: #203060; */
   /* background-color: red; */
-}
+/* } */
 
 /* .navlink {
   color: rgb(12, 12, 12);
@@ -89,27 +85,27 @@
   margin: 1rem;
   color: #203060;
 } */
-
+/* 
 .contactus {
   font-weight: regular;
   text-decoration: none;
   padding: 12px 10px 12px 12px;
   font-size: 18px;
   /* font-family: "roboto"; */
-  margin: 1rem;
+  /* margin: 1rem;
   margin-right: 10rem;
-  color: #203060;
-}
+  color: #203060; */
+/* } */ 
 
-.navlink:hover {
+/* .navlink:hover {
   color: #50e6c5;
-}
+} */
 
-.contactus:hover {
+/* .contactus:hover {
   color: #50e6c5;
-}
+} */
 
-.navbarbutton {
+/* .navbarbutton {
   border-color: #50e6c5;
   border-radius: 8px;
   height: 50px;
@@ -119,9 +115,8 @@
   font-size: 18px;
   padding: 15px;
   color: #203060;
-  /* padding-bottom: 10px; */
   margin-right: 10px;
-}
+} */
 
 .link-register {
   text-decoration: none;
