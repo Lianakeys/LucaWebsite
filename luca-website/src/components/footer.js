@@ -29,23 +29,13 @@ class Footer extends React.Component {
         <div className="footer-container">
             <div className="footer-grid-container">
                 <div className="footer-top-grid">
-                    <div className="footer-details-container">
-                        <h2 className="footer-details-notes">LucaPlus is a free app, you won’t be charged</h2>
-                        <div className="footer-email-form">
-                            <form className="form-inline" action="/"> 
-                                <input type="email" id="footer-email" placeholder="Your email" name="email"></input>
-                            </form>
-                            <button className="footer-button-container">
-                                <p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 bottom-2"/></p>
-                            </button>
-                        </div>
-                    </div>
+                   
                 </div>
                 
                 <div className="footer-middle-grid"> 
                     <div className="middle-box-shadow"></div>
                     <div className="back-to-top">
-                            <a href="#top"><FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-10" size="2x"/></a>
+                        <a href="#top"><FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-10" size="2x"/></a>
                     </div>
                     <div className="footer-middle-links-container">
                         <ul className="footer-navbox">
