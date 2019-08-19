@@ -2,16 +2,20 @@
 
     height: 100%;
     width: 100%;
-    /* background-color: blue; */
+    background-color: white;
     display: flex;
 }
 
 .logo-box {
     height: 100%;
-    width: 19%;
+    width: 23%;
     /* background-color: red; */
     display: flex;
     justify-content: flex-end;
+}
+
+.logoimage {
+    margin-top: -20px;
 }
 
 .navbox-for-four {
@@ -19,8 +23,8 @@
     /* background-color: yellow; */
     height: 90%;
     width: 80%;
-    margin-top: 10px;
-    margin-left: 300px;
+    margin-top: -5px;
+    margin-left: 245px;
 }
 
 .navlink {
