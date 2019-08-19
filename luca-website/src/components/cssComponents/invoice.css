@@ -17,21 +17,21 @@
 
 .invoice-section-title-box-left {
     height: 70vh;  
-    width: 50%;
-    /* background-color: red; */
+    width: 90%;
+    /* background-color: purple; */
     margin-top: 14rem;
-    margin-left: 10rem;
+    margin-left: 130px;
 }
 
 .invoice-section-content {
     height: 100%;
     width: 600px;
-    margin-right: 0;
-    margin-left: 10rem;
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 300px;
+    margin-left: 900px;
+    /* display: flex;   */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .invoice-section-title {
@@ -72,7 +72,7 @@
     /* display: flex;
     justify-content: center; */
     margin-left: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 50px;
     border-radius: 8px; 
     /* text-align: center; */
     box-shadow: none;

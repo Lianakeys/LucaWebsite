@@ -52,7 +52,9 @@ class App extends React.Component {
         <Savetime />
         </div>
         <div className="Invoicesection">
-        <Invoice />
+          
+          <Invoice />
+          
         </div>
         <div className="Remindersection">
         <Reminder />
