@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "670739d8a5d7457878c6ab4e9e9aace7",
+    "revision": "96f033e32b689b2d06d208eb5eac3eaa",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "08b367b3ed165b291257",
-    "url": "/LucaWebsite/static/css/main.e65b47e8.chunk.css"
+    "revision": "fec71cf72cce0e996b28",
+    "url": "/LucaWebsite/static/css/main.60c312b8.chunk.css"
   },
   {
-    "revision": "9a194ff83d5404c66c08",
-    "url": "/LucaWebsite/static/js/2.1ecf8f84.chunk.js"
+    "revision": "acc7fbbff3b7ee60a119",
+    "url": "/LucaWebsite/static/js/2.f5693c62.chunk.js"
   },
   {
-    "revision": "08b367b3ed165b291257",
-    "url": "/LucaWebsite/static/js/main.ead1c838.chunk.js"
+    "revision": "fec71cf72cce0e996b28",
+    "url": "/LucaWebsite/static/js/main.8e89865f.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -48,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/facebook.17c31ac0.svg"
   },
   {
-    "revision": "4a65c257f48509bcdfebba7f6dd30436",
-    "url": "/LucaWebsite/static/media/firsticon.4a65c257.svg"
-  },
-  {
     "revision": "af6a263cd2e56f86d18ce5e59613c6be",
     "url": "/LucaWebsite/static/media/hiw-icon-full.af6a263c.svg"
   },
@@ -62,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "385ef3a5726d38808335f2efc560f8f3",
     "url": "/LucaWebsite/static/media/invoice.385ef3a5.svg"
-  },
-  {
-    "revision": "db93306be4dd863fa968f781a0929de2",
-    "url": "/LucaWebsite/static/media/left-dash-line.db93306b.svg"
   },
   {
     "revision": "a929704b135cab1482a20ad70f30952c",
@@ -88,20 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/pricing.0faa179d.svg"
   },
   {
-    "revision": "a6a0069a107fecf233d51d975e112903",
-    "url": "/LucaWebsite/static/media/right-dash-line.a6a0069a.svg"
-  },
-  {
     "revision": "c8c6fe5552ee61ed6bfaa90a70cfccea",
     "url": "/LucaWebsite/static/media/savetime.c8c6fe55.svg"
-  },
-  {
-    "revision": "83990b1acb14353455fd1c92517e5fdb",
-    "url": "/LucaWebsite/static/media/secondicon.83990b1a.svg"
-  },
-  {
-    "revision": "27c57a27ddf2585034b6cac4fecd78e1",
-    "url": "/LucaWebsite/static/media/thirdicon.27c57a27.svg"
   },
   {
     "revision": "928cf8164bfafca066bf2485fcda43a1",
