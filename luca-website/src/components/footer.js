@@ -44,10 +44,10 @@ class Footer extends React.Component {
                 
                 <div className="footer-middle-grid"> 
                     <div className="middle-box-shadow"></div>
-                    <div className="footer-middle-links-container">
-                        <div className="back-to-top">
+                    <div className="back-to-top">
                             <a href="#top"><FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-10" size="2x"/></a>
-                        </div>
+                    </div>
+                    <div className="footer-middle-links-container">
                         <ul className="footer-navbox">
                             <li className="footer-navitem">
                                 <a className="navlink" href="#top">
@@ -88,10 +88,12 @@ class Footer extends React.Component {
                         </ul>
                        
                     </div>
-                    <div className="footer-social-media-container">
-                        <img src={twitter} className="twitter" alt="Luca Logo" />
-                        <img src={insta} className="insta" alt="Luca Logo" />
-                        <img src={facebook} className="facebook" alt="Luca Logo" />
+                    <div className="footer-sm-box">
+                        <div className="footer-social-media-container">
+                            <img src={twitter} className="twitter" alt="Luca Logo" />
+                            <img src={insta} className="insta" alt="Luca Logo" />
+                            <img src={facebook} className="facebook" alt="Luca Logo" />
+                        </div>
                     </div>
                 </div>
                 <div className="second-last-copyright-box">
