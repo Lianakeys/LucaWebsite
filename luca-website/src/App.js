@@ -66,7 +66,7 @@ class App extends React.Component {
         <Slider />
         </div>
         <div className="Footersection">
-          <Footer />
+        <Footer />
         </div>
       </div>
     );

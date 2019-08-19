@@ -9,7 +9,7 @@ class Invoice extends React.Component {
   render() {
     return (
       <div className="home-page">
-        <div className="invoice-section ">
+        <div className="invoice section ">
           
           <div className="invoice-section-content">
             
