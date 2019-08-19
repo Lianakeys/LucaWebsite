@@ -17,8 +17,12 @@ class App extends React.Component {
     return (
       <div className="App" >
         <meta charset="UTF-8"></meta>
+        <div className="Navbar">
         <Navbar />
+        </div>
+        <div className="Homesection">
         <HomeSection />
+        </div>
         <HowItWorks />
         <PartnerIntegration />
         <Savetime />
