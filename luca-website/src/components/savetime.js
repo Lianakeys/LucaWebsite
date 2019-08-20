@@ -9,9 +9,9 @@ import dot from "./dot.svg";
 class Savetime extends React.Component {
   render() {
     return (
-      <div className="savetime-page">
-        <div className="save-time-section ">
-          <div className="savetime-section-title-box-left">
+      <div className="home-page">
+        <div className="home section ">
+          <div className="section-title-box-left">
             <h6 className="savetime-section-title">
               Save <span className="time">time</span> and <span className="cost">cost</span> as manual entry is no longer required 
             </h6>
@@ -28,7 +28,7 @@ class Savetime extends React.Component {
           
             
           </div>
-          <div className="savetime-section-content">
+          <div className="section-content">
             
             <img src={savetime} alt="hero" className="savetime-Hero-image" />
            
