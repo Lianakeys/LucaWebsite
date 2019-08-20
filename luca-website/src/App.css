@@ -103,9 +103,9 @@ body{
 }
 
 .Savetimesection {
-  height: 85vh;
+  height: 75vh;
   width: 100vw;
-  /* margin-top: 1rem;*/
+  margin-top: -5rem;
  /* background-color: red;  */
 }
 .Invoicesection {
@@ -234,12 +234,13 @@ body{
   background-color: white;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 /* back to top box */
 
 .back-to-top {
+  margin-top: 6rem;
   height: 10%;
   width: 100%;
   /* background-color: purple; */
