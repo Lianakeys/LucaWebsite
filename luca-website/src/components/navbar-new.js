@@ -41,7 +41,7 @@ class Navbar extends Component {
                 <li className="navlink">
                     <button className="navbarbutton" to="/SignUp" >
                         <a href="https://luca.ledgerium.net/register" className="link-register">
-                            Signup for free
+                            Sign up
                         </a>
                     </button>
                 </li>

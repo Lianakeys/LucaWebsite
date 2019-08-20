@@ -22,7 +22,7 @@ class Magic extends React.Component {
             All these magic are <span className="time">FREE</span> to use
             </h6>
             <div className="magic-notes">
-            LucaPlus is a FREE app! You won’t be charged for any reasons. 
+            Luca+ is a FREE app! You won’t be charged for any reasons. 
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
             

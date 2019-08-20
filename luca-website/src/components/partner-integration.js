@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./cssComponents/partner-integration.css";
+import Lucawhite from './Luca-white.svg'
 import integration from './pi.svg'
 
 class PartnerIntegration extends Component {
@@ -21,7 +22,7 @@ class PartnerIntegration extends Component {
                     <div className="pi-annoying-box">
                         <div className="pi-section-title-box">
                             <h6 className="pi-section-title">
-                                LucaPlus integrates into your existing accounting software
+                            <img src={Lucawhite} alt="hero" className="pi-image" /> integrates into your existing accounting software
                             </h6>
                             <div className="pi-notes">
                             {" "}

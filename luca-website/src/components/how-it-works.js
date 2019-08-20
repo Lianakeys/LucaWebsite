@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./cssComponents/how-it-works.css";
+import LucaLOGO from './components/Luca-logo.svg'
 // import hiwimage from "./how-it-works.svg";
 import firstIcon from "./firsticon.svg";
 import secondIcon from "./secondicon.svg";
@@ -18,7 +19,7 @@ class HowItWorks extends Component {
                     <div className="hiw-container">
                         <div className="hiw-title-box">
                             <h6 className="hiw-title">
-                            How LucaPlus Works{" "}
+                            How <img src={LucaLOGO} className="details-luca-logo" alt="Luca Logo" /> Works{" "}
                             </h6>
                         </div>
                         <div className="icon-container">

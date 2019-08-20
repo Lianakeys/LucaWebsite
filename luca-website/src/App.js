@@ -39,7 +39,7 @@ class App extends React.Component {
           <a name="hiw"></a>
             <div className="hiw-title-box">
               <h6 className="hiw-title">
-              How LucaPlus Works{" "}
+              How <img src={LucaLOGO} className="hiw-luca-logo" alt="Luca Logo" /> Works{" "}
               </h6>
             </div>
           {/* <HowItWorks /> */}
@@ -79,7 +79,7 @@ class App extends React.Component {
           <div className="footer-container">
             <div className="footer-topbox">
               <div className="footer-details-container">
-                <h2 className="footer-details-notes">LucaPlus is a free app, you won’t be charged</h2>
+                <h2 className="footer-details-notes"><img src={LucaLOGO} className="details-luca-logo" alt="Luca Logo" /> is a free app, you won’t be charged</h2>
                   <div className="footer-email-form">
                       <form className="form-inline" action="/"> 
                           <input type="email" id="footer-email" placeholder="Your email" name="email"></input>
