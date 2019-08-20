@@ -9,24 +9,26 @@ class Invoice extends React.Component {
   render() {
     return (
       <div className="home-page">
-        <div className="invoice section ">
-        <div className="section-title-box-left">
-        <img src={invoice} alt="hero" className="invoice-Hero-image" />
-            
-          </div>
+        <div className="home section ">
+
           <div className="section-content">
-            
-          <h6 className="invoice-section-title">
-   Invoices are <span className="time">secure</span> and <span className="cost">direct</span>  
- </h6>
- <div className="invoice-notes">
-   Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
- </div>
-     <button className="invoice-button">
-       <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
-     </button>
+            <img src={invoice} alt="hero" className="invoice-Hero-image" />
+          </div>
+
+          <div className="section-title-box-left">
+                
+            <h6 className="invoice-section-title">
+              Invoices are <span className="time">secure</span> and <span className="cost">direct</span>  
+            </h6>
+            <div className="invoice-notes">
+              Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
+            </div>
+              <button className="invoice-button">
+                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
+              </button>
 
           </div>
+        
         </div>
 
       </div>
