@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LucaWebsite/precache-manifest.2d0a523f6ca48906be0216be8dbc4c2e.js"
+  "/LucaWebsite/precache-manifest.ac9e13c407164d17af337026a6a2be76.js"
 );
 
 self.addEventListener('message', (event) => {
