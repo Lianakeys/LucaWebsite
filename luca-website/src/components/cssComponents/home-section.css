@@ -204,7 +204,7 @@
  .MYOB-left-button {
    height: 5rem;
    width: 15rem;
-   margin-top: 2rem;
+   margin-top: 0rem;
     float: left;
     /* text-decoration: none; */
     /* background-color: red;  */
@@ -212,11 +212,11 @@
   }
 
   .Xero-right-button {
-    margin-right: 12rem;
+    /* margin-right: 12rem;
     margin-top: 2rem;
     height: 5rem;
-    width: 15rem;
-     float: right;
+    width: 15rem; */
+    margin-top: 2rem;
      /* text-decoration: none; */
      /* background-color: red;  */
   }
@@ -240,19 +240,13 @@
     background-color: var(--card-1);
   }
 
-  .Myob-outer-button {
-    margin-left: 1.5rem;
+  .buttons-container {
+    height: 100px;
+    width: 700px;
+    /* margin-left: 1.5rem;
     margin-top: 4rem;
-    margin-right: 4rem;
-    width: 250px;
-    height: 71px;
-    left: 130px;
-    top: 678px;
-
-    border: 2px solid #50E3C2;
-    box-sizing: border-box;
-    box-shadow: 4px 4px 10px rgba(238, 240, 244, 0.2), -4px 4px 10px #EEF0F4;
-    border-radius: 37px;
+    margin-right: 4rem; */
+   /* background-color: red; */
   }
 
   .Xero-outer-button {
