@@ -92,7 +92,7 @@
       
       .home-button {
           height: 56px;
-          width: 180px;
+          width: 240px;
           background-color: #50E3C2;
           color: #203060;
           /* display: flex;
@@ -141,8 +141,8 @@
           /* background-color: red; */
       }
 
-      #email {
-        width: 13rem;
+      #emaill {
+        width: 14.5rem;
         padding-bottom: 0.4rem;
         background: transparent;
         border-top: transparent !important;

@@ -28,11 +28,11 @@ class HomeSection extends React.Component {
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
             <div className="email-form">
                 <form className="form-inline" action="/"> 
-                    <input type="email" id="email" placeholder="Your email" name="email"></input>
+                    <input type="email" id="emaill" placeholder="Your email" name="email"></input>
                 </form>
 
                 <button className="home-button">
-                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
+                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started for free<span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
                 </button>
 
             </div>
