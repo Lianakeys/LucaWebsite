@@ -12,7 +12,7 @@ class Routes extends React.Component {
             {/* <Redirect to={App} /> */}
             <Route exact path="/" component={Home} />
             <Route path="/comingsoon" component={Coming} />
-            <Route component={() => (<div>404 Not found 1</div>)} />
+            <Route component={Home} />
         </Switch>
 
         );

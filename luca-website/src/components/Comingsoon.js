@@ -22,9 +22,6 @@ class Coming extends Component {
                    
                 </div>
 
-
-
-
       )
 
     }
