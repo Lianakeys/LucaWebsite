@@ -51,9 +51,9 @@ class HomeSection extends React.Component {
 ">
               <img src={myobbutton} alt="hero" className="MYOBbutton-image" />
             </a>
-            <a className="XERObutton-outer" href="https://www.xero.com/au/signup/?xtid=x30luca">
+            <span><a className="XERObutton-outer" href="https://www.xero.com/au/signup/?xtid=x30luca">
               <img src={xerobutton} alt="hero" className="XERObutton-image" />
-            </a>
+            </a></span>
             </div>
           </div>
           <div className="section-content">
