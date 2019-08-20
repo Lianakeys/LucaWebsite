@@ -1,0 +1,157 @@
+/* .how-it-works-page {
+    font-family: 'Open sans', sans-serif;
+    height: auto;
+    flex-direction: column;
+  } */
+
+/* .hiw-container {
+    height: 85vh;  
+    width: 100%;
+    margin: 0px; */
+    /* padding: 20px; */
+    /* background-color: #F8F8F8; */
+    /* background-color: red; */
+    /*   
+    justify-content: space-evenly;
+    align-items: center;
+    */
+/* } */
+
+
+
+
+
+
+
+/* .hiw-icon {
+    margin-left: 13.5rem;
+} */
+
+.first-icon-box {
+    /* background-color: purple; */
+    height: 20rem;
+    width: 5rem;
+    margin-left: 25rem;
+}
+
+.first-icon-notes {
+    height: 4rem;
+    width: 9rem;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.hiw-first-notes {
+    margin-left: -80px;
+    color: #1F3161;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.second-icon-box {
+    /* background-color: purple; */
+    height: 20rem;
+    width: 5rem;
+    margin-left: -0.8rem;
+    margin-top: 3rem;
+
+}
+
+.second-icon-notes {
+    height: 4rem;
+    width: 8rem;
+    text-align: center;
+    
+    /* background-color: green; */
+}
+
+.hiw-second-notes {
+    margin-left: -60px;
+    color: #1F3161;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.third-icon-box {
+    /* background-color: purple; */
+    height: 20rem;
+    width: 6rem;
+    margin-right: 25rem;
+    margin-top: -8.5rem;
+    
+   
+}
+
+.third-icon-notes {
+    height: 4rem;
+    width: 12rem;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.hiw-third-notes {
+    margin-left: -60px;
+    color: #1F3161;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.left-dashline-box {
+/* background-color: green; */
+margin-left: -1rem;
+
+}
+
+.right-dashline-box {
+    /* background-color: green; */
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    
+    }
+
+.third-icon-image {
+    margin-top: 9.2rem;
+}
+
+
+@media only screen and (max-width: 1680px) {
+
+.hiw-icon {
+    margin-left: 8rem;
+}    
+
+
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+
+.hiw-container {
+    height: 100vh;
+}
+
+.hiw-icon {
+    margin-left: 2rem;
+    height: 21.5rem;
+    width: 60rem;
+    /* background-color: red; */
+}    
+
+.hiw-title-box {
+    font-size: 2rem;
+}
+
+}
+
+
+
