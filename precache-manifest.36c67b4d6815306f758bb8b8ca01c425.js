@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ae9e27254a1039ec5852d5cfc13be43",
+    "revision": "8019abd6368f02b8cf80e6b6120c1809",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "10fa81bb3a2cae5978e5",
-    "url": "/LucaWebsite/static/css/main.ad01da09.chunk.css"
+    "revision": "824a93d8791ec63b3f44",
+    "url": "/LucaWebsite/static/css/main.fc209a44.chunk.css"
   },
   {
-    "revision": "83d4de7d3a98d084b77b",
-    "url": "/LucaWebsite/static/js/2.591c7cb4.chunk.js"
+    "revision": "13f320cc5952008b2e73",
+    "url": "/LucaWebsite/static/js/2.cd0845d1.chunk.js"
   },
   {
-    "revision": "10fa81bb3a2cae5978e5",
-    "url": "/LucaWebsite/static/js/main.cbad1677.chunk.js"
+    "revision": "824a93d8791ec63b3f44",
+    "url": "/LucaWebsite/static/js/main.495f8b99.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "33925c15b33afea1a32fe2bc6048e377",
     "url": "/LucaWebsite/static/media/Luca-logo.33925c15.svg"
+  },
+  {
+    "revision": "1bd3ea116fa929ca16294bc0859552b9",
+    "url": "/LucaWebsite/static/media/Luca-white.1bd3ea11.svg"
   },
   {
     "revision": "08a3e3cf176c71451825e9bf55cbd170",
@@ -52,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/facebook.17c31ac0.svg"
   },
   {
-    "revision": "af6a263cd2e56f86d18ce5e59613c6be",
-    "url": "/LucaWebsite/static/media/hiw-icon-full.af6a263c.svg"
+    "revision": "d6d8eca0630038e510217dc72a20d296",
+    "url": "/LucaWebsite/static/media/hiw-icon-full.d6d8eca0.svg"
   },
   {
     "revision": "f8983fb408ea00660c9fc753ae60232a",
