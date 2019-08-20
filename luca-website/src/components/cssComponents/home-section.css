@@ -173,9 +173,11 @@
   }
 
   .Hero-image {
+    /* background-color: red; */
     margin-top: 10rem;
     margin-right: 6rem;
-    /* height: 100px; */
+    /* height: 600px; */
+    margin-bottom: 4rem;
   }
 
   .Myob-icon {
@@ -188,6 +190,86 @@
   .getstarted {
     text-decoration: none;
     color: #203060;
+  }
+
+  .MYOB {
+    height: 25px;
+    width: 10px;
+    /* background-color:red; */
+    
+     /* padding-top: -10px;  */
+    /* padding-bottom: -60px; */
+  }
+  
+ .MYOBbutton-outer {
+   height: 5rem;
+   width: 31rem;
+   margin-top: 2rem;
+    /* text-decoration: none; */
+    /* background-color: red;  */
+
+  }
+
+  .XERObutton-outer {
+    /* margin-top: 3rem; */
+    /* text-decoration: none;
+    background-color: white;
+    height: 10px;
+    border: solid white; */
+  }
+
+  .MYOB-button {
+      
+      width: 220px;
+      height: 60.5px;
+      border-radius: 18.5px;
+      box-shadow: 2px 2px 5px 0 rgba(238, 240, 244, 0.2), -2px 2px 5px 0 #eef0f4;
+      background-color: var(--card-1);
+
+  }
+
+
+  .Xero-button {
+    width: 220px;
+    height: 56.5px;
+    border-radius: 18.5px;
+    box-shadow: 2px 2px 5px 0 rgba(238, 240, 244, 0.2), -2px 2px 5px 0 #eef0f4;
+    background-color: var(--card-1);
+  }
+
+  .Myob-outer-button {
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    width: 250px;
+    height: 71px;
+    left: 130px;
+    top: 678px;
+
+    border: 2px solid #50E3C2;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px rgba(238, 240, 244, 0.2), -4px 4px 10px #EEF0F4;
+    border-radius: 37px;
+  }
+
+  .Xero-outer-button {
+
+    width: 250px;
+    height: 71px;
+    left: 130px;
+    top: 678px;
+
+    border: 2px solid #50E3C2;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px rgba(238, 240, 244, 0.2), -4px 4px 10px #EEF0F4;
+    border-radius: 37px;
+  }
+
+  #try {
+    font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1F3161;
   }
 
   @media only screen and (max-width: 1680px) {

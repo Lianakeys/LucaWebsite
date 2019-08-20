@@ -99,7 +99,7 @@ class App extends React.Component {
                 <ul className="footer-navbox">
                   <li className="footer-navitem">
                       <a className="navlink" href="#top">
-                          Product
+                          Why us?
                       </a>
                   </li>
                   <li className="footer-navitem">
