@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6267c7ca45e686e0a7677f53e84fa04f",
+    "revision": "1aecd6665330d3f8072892518e0eb14c",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "e2d520de090169fe0b01",
-    "url": "/LucaWebsite/static/css/main.fc209a44.chunk.css"
+    "revision": "1e0cd9cc0243efd5bbef",
+    "url": "/LucaWebsite/static/css/main.74f6a79a.chunk.css"
   },
   {
-    "revision": "13f320cc5952008b2e73",
-    "url": "/LucaWebsite/static/js/2.cd0845d1.chunk.js"
+    "revision": "7712e4301e908d81d8d5",
+    "url": "/LucaWebsite/static/js/2.d6923233.chunk.js"
   },
   {
-    "revision": "e2d520de090169fe0b01",
-    "url": "/LucaWebsite/static/js/main.f39191eb.chunk.js"
+    "revision": "1e0cd9cc0243efd5bbef",
+    "url": "/LucaWebsite/static/js/main.cd2b8b31.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
     "url": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js"
   },
   {
-    "revision": "75147adfc97cb4def4bde8f2a5cebbba",
-    "url": "/LucaWebsite/static/media/Hero-image.75147adf.svg"
+    "revision": "3fe543a8e950510cc62d89de63c1ed37",
+    "url": "/LucaWebsite/static/media/Hero-image.3fe543a8.svg"
   },
   {
     "revision": "33925c15b33afea1a32fe2bc6048e377",
@@ -32,8 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/Luca-white.1bd3ea11.svg"
   },
   {
+    "revision": "110fca34b27a6eff42565d17e2d8a9ff",
+    "url": "/LucaWebsite/static/media/MYOB-button.110fca34.svg"
+  },
+  {
+    "revision": "7237435297251a08c003d6bcb396494c",
+    "url": "/LucaWebsite/static/media/MYOB-font.72374352.svg"
+  },
+  {
     "revision": "08a3e3cf176c71451825e9bf55cbd170",
     "url": "/LucaWebsite/static/media/Myob-icon.08a3e3cf.svg"
+  },
+  {
+    "revision": "595e4db9786739a658dfcf20fc87f622",
+    "url": "/LucaWebsite/static/media/XEROfont.595e4db9.svg"
+  },
+  {
+    "revision": "be7ab0d7346cac6aa044d9b6652350f2",
+    "url": "/LucaWebsite/static/media/Xero-button.be7ab0d7.svg"
   },
   {
     "revision": "b5b676b571203c71d66e385e4d5557eb",
