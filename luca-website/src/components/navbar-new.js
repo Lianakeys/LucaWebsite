@@ -16,17 +16,17 @@ class Navbar extends Component {
             <span className="navbox-for-four">
                 <ul>
                 <li className="navlink">
-                    <a href="#pricing" className="navlink" to="/WhyUs">
+                    <a href="#pricing" className="navlink" >
                         Why us?
                     </a>
                 </li>
                 <li className="navlink">
                     <a href="https://docs.theblockledger.net/" className="navlink" to="/HelpCentre">
-                        Help centre
+                        Block Ledger
                     </a>
                 </li>
                 <li className="navlink">
-                    <Link className="navlink" to="/Contact Us">
+                    <Link className="navlink" to="/comingsoon">
                         Contact us
                     </Link>
                 </li>

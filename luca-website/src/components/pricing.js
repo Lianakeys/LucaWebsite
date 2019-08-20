@@ -9,7 +9,6 @@ class Pricing extends Component {
       return (
 
                 <div className="pricing-page " >
-                   <a name="pricing"></a>
                     <div className="pricing-container">
                         <div className="top-box"></div>
                         

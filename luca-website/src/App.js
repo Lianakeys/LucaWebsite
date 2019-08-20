@@ -85,7 +85,7 @@ class App extends React.Component {
                           <input type="email" id="footer-email" placeholder="Your email" name="email"></input>
                       </form>
                       <button className="footer-button-container">
-                          <p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 bottom-2"/></p>
+                      <a className="getstarted" href="https://luca.ledgerium.net/register"><p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 bottom-2"/></p></a>
                       </button>
                   </div>
               </div>

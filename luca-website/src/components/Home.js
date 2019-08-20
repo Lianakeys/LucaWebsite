@@ -50,6 +50,7 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="Pricingsection">
+        <a name="pricing"></a>
           <div className="pricing-image-box">
                 <img src={pricingicon} alt="hero" className="pricing-icon" />
           </div>
@@ -87,7 +88,7 @@ class Home extends React.Component {
                           <input type="email" id="footer-email" placeholder="Your email" name="email"></input>
                       </form>
                       <button className="footer-button-container">
-                          <p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 bottom-2"/></p>
+                      <a className="getstarted" href="https://luca.ledgerium.net/register"><p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 bottom-2"/></p></a>
                       </button>
                   </div>
               </div>
@@ -125,7 +126,7 @@ class Home extends React.Component {
                       </Link>
                   </li>
                   <li className="footer-navitem">
-                      <a href="https://www.theblockledger.net/" className="navlink" to="/Blog">
+                      <a href="https://www.theblockledger.net/blog/" className="navlink" to="/Blog">
                           Blog
                       </a>
                   </li>
