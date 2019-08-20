@@ -139,9 +139,9 @@ class Home extends React.Component {
               </div>
               <div className="footer-sm-box">
                 <div className="footer-social-media-container">
-                    <img src={twitter} className="twitter" alt="Luca Logo" />
-                    <img src={insta} className="insta" alt="Luca Logo" />
-                    <img src={facebook} className="facebook" alt="Luca Logo" />
+                    <a href="https://twitter.com/Luca_Accounting"><img src={twitter} className="twitter" alt="Luca Logo" /></a>
+                    <a href="https://www.instagram.com/lucaaccounting/"><img src={insta} className="insta" alt="Luca Logo" /></a>
+                    <a href="https://www.facebook.com/Luca.Accounting/?pageid=2516020795076745&ftentidentifier=2516120181733473&padding=0"><img src={facebook} className="facebook" alt="Luca Logo" /></a>
                 </div>
               </div>
            </div>    
