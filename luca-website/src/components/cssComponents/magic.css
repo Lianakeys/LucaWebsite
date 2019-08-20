@@ -2,13 +2,29 @@
     font-size: 18px;
     height: 80px;
     padding: 2px;
-    width: 70%;
+    width: 80%;
     text-align: left;
     color: rgba(35, 44, 68, 0.78);
     /* background-color: blue; */
     margin-left: 1.6rem;
     margin-top: -2rem;
 }
+
+.magic-section-title {
+
+    margin-left: 30px;
+    font-size: 40px;
+    /* text-align: left; */
+    /* background-color: green; */
+    height: 65px;
+    width: 650px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 700;
+    line-height: 68px;
+    color: #203060;
+    margin-top: 6rem;
+}
+
 
 .magic-button {
     height: 56px;
@@ -35,9 +51,9 @@
 
 .magic-button:hover {
   
-    background: #44c9ac;
+    background: #50E6C5;
     color: #fff;
-    border-color: #44c9ac;    
+    border-color: #50E6C5;    
     animation: bounce 2.5s infinite; 
    -webkit-animation: bounce 2.5s infinite; 
    -moz-animation: bounce 2.5s infinite; 

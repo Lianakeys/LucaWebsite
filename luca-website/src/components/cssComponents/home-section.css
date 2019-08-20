@@ -23,6 +23,10 @@
    */
   }
 
+  /* .highlight {
+
+    background-color: #50E3C2;
+  } */
 
     .section-title {
       margin-left: 30px;
@@ -35,6 +39,7 @@
       font-weight: 700;
       line-height: 68px;
       color: #203060;
+      position: relative;
     }
     .section-content {
       height: 100%;
@@ -51,7 +56,7 @@
       width: 483px;
       height: 26px;
       /* left: 122px; */
-      top: 425px;
+      top: 100px;
       background: #50E3C2;
       z-index: -1;
     }

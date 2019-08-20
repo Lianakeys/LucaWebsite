@@ -62,9 +62,9 @@
 
 .reminders-button:hover {
   
-  background: #44c9ac;
+  background: #50E6C5;
   color: #fff;
-  border-color: #44c9ac;    
+  border-color: #50E6C5;    
   animation: bounce 2.5s infinite; 
  -webkit-animation: bounce 2.5s infinite; 
  -moz-animation: bounce 2.5s infinite; 

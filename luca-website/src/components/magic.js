@@ -18,7 +18,7 @@ class Magic extends React.Component {
            
           </div>
           <div className="magic-section-title-box-left">
-            <h6 className="invoice-section-title">
+            <h6 className="magic-section-title">
             All these magic are <span className="time">FREE</span> to use
             </h6>
             <div className="magic-notes">
