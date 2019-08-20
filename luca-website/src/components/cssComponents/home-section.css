@@ -201,22 +201,24 @@
     /* padding-bottom: -60px; */
   }
   
- .MYOBbutton-outer {
+ .MYOB-left-button {
    height: 5rem;
-   width: 31rem;
+   width: 15rem;
    margin-top: 2rem;
-
+    float: left;
     /* text-decoration: none; */
     /* background-color: red;  */
 
   }
 
-  .XERObutton-outer {
-    /* margin-top: 3rem; */
-    /* text-decoration: none;
-    background-color: white;
-    height: 10px;
-    border: solid white; */
+  .Xero-right-button {
+    margin-right: 12rem;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 15rem;
+     float: right;
+     /* text-decoration: none; */
+     /* background-color: red;  */
   }
 
   .MYOB-button {
