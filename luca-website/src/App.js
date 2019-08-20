@@ -91,7 +91,7 @@ class App extends React.Component {
             <div className="footer-lowerbox">
             <div className="middlebox">
               <div className="back-to-top">
-                <a href="#top"><FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="" size="2x"/></a>
+                <a href="#top"><FontAwesomeIcon className="chevron-up" icon={faChevronUp} transform="right-4" size="2x"/></a>
               </div>
               <div className="footer-middlebox">
                 <ul className="footer-navbox">
