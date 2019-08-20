@@ -40,6 +40,7 @@
       line-height: 68px;
       color: #203060;
       position: relative;
+      z-index: -1;
     }
     .section-content {
       height: 100%;

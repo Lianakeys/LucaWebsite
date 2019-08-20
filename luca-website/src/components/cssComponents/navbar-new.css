@@ -6,6 +6,7 @@
     width: 100%;
     background-color: white;
     display: flex;
+    z-index: 10;
 }
 
 .logo-box {

@@ -1,33 +1,35 @@
 import React from "react";
-import Routes from './Routes';
 import { Link } from "react-router-dom";
-import LucaLOGO from './components/Luca-logo.svg'
-import "./App.css";
-import Navbar from "./components/navbar-new"
-import HomeSection from "./components/home-section";
+import LucaLOGO from './Luca-logo.svg'
+import "../App.css";
+import Navbar from "./navbar-new"
+import HomeSection from "./home-section";
 // import Footer from "./components/footer";
-import PartnerIntegration from "./components/partner-integration";
-import Savetime from "./components/savetime";
-import Invoice from "./components/invoice";
-import Reminder from "./components/reminders";
-import Magic from "./components/magic";
-import Slider from "./components/slider";
-import pricingicon from "./components/pricing.svg";
-import dot from "./components/pricing-dot.svg";
-import hiwIconFull from "./components/hiw-icon-full.svg";
+import PartnerIntegration from "./partner-integration";
+import Savetime from "./savetime";
+import Invoice from "./invoice";
+import Reminder from "./reminders";
+import Magic from "./magic";
+import Slider from "./slider";
+import pricingicon from "./pricing.svg";
+import dot from "./pricing-dot.svg";
+import hiwIconFull from "./hiw-icon-full.svg";
 // import Navbar from "./components/Navbar/Navbar";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import twitter from './components/twitter.svg'
-import insta from './components/insta.svg'
-import facebook from './components/facebook.svg'
+import twitter from './twitter.svg'
+import insta from './insta.svg'
+import facebook from './facebook.svg'
 
-class App extends React.Component {
-  render() {
-    return (
-      <Routes>
-      <div className="App" >
+
+
+
+class Home extends React.Component {
+    render() {
+      return (
+
+<div className="App" >
         <meta charset="UTF-8"></meta>
         <div className="Navbar">
         <Navbar />
@@ -153,12 +155,10 @@ class App extends React.Component {
           {/* <Footer /> */}
         </div>
       </div>
-      </Routes>
-    );
-  }
+
+
+);
+}
 }
 
-export default App;
-
-
-
+export default Home;
