@@ -269,6 +269,7 @@
   color: #1F3161;
   }
 
+
   @media only screen and (max-width: 1680px) {
 
     
@@ -291,6 +292,7 @@
 
 
   }
+
 
 
 
@@ -370,3 +372,16 @@
     }
 
   }
+
+
+  @media only screen and (max-width: 500px) {
+    .section-title-box-left {
+      display: none;
+      /* background-color: red; */
+    }
+
+    .Hero-image {
+      display: none;
+    }
+  }
+

@@ -7,6 +7,7 @@ import HomeSection from "./home-section";
 // import Footer from "./components/footer";
 import PartnerIntegration from "./partner-integration";
 import Savetime from "./savetime";
+import Hamburger from "./hamburger";
 import Invoice from "./invoice";
 import Reminder from "./reminders";
 import Magic from "./magic";
@@ -36,6 +37,16 @@ class Home extends React.Component {
         </div>
         <div className="Homesection">
         <HomeSection />
+        </div>
+        <div className="HomeforPhone-container">
+          <div className="hamburgermenu-container">
+            <div className="hamburgermenu">
+              <Hamburger />
+            </div>
+          </div>
+          <div className="Lucaforphone-logocontainer">
+            <img src={LucaLOGO} className="hiw-luca-logo" alt="Luca Logo" />
+          </div>
         </div>
         <div className="HIWsection">
           <a name="hiw"></a>

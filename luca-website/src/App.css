@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900&display=swap');
 
-
 body{
   padding: 0;
   margin:0;
@@ -12,6 +11,13 @@ body{
   position: relative;
   /* overflow: hidden; */
 }
+
+/* .HomeforPhone {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+} */
+
 
 .Navbar {
   position: fixed;
@@ -395,3 +401,69 @@ body{
     transform: rotate(360deg);
   }
 } */
+
+
+/* 
+@media only screen and (max-width: 500px) {
+  .Navbar {
+    display: none;
+  }
+
+  .logo-box {
+    display: none;
+  }
+} */
+
+
+@media only screen and (max-width: 500px) {
+
+  body
+  {
+    margin: 0;
+    padding: 0;
+    
+    /* make it look decent enough */
+    background: #232323;
+    /* color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif; */
+  }
+
+    .Navbar {
+      display: none;
+    }
+
+    .Homesection {
+      display: none;
+    }
+ 
+    .HomeforPhone-container {
+      display: block;
+      height: 400vh;
+      width: 393vw;
+      background-color: red;
+    }
+
+    .hamburgermenu-container {
+      height: 10rem;
+      display: flex;
+      justify-content: flex-end;
+      background-color: green;
+      width: 100%;
+    }
+
+    .hamburgermenu {
+      height: 10rem;
+      background-color: blue;
+      width: 10rem;
+    }
+
+    .Lucaforphone-logocontainer {
+      height: 20rem;
+      background-color: pink;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+
+}

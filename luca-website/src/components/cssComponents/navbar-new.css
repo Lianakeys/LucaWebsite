@@ -33,13 +33,13 @@
 }
 
 .navlink {
-display: inline-block;
-list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
 /* background-color: green; */
 
   color: rgb(12, 12, 12);
   font-style: normal;
-font-weight: 600;
+  font-weight: 600;
   text-decoration: none;
   /* padding: 12px 10px 12px 12px; */
   font-size: 18px;
@@ -134,13 +134,13 @@ font-weight: 600;
   }
   
 
-
-  /* @media only screen and (max-width: 600px) {
-    
+  @media only screen and (max-width: 500px) {
     .navbar-container {
       display: none;
+      /* background-color: red; */
     }
 
 
-   
-  } */
+    
+    
+  }
