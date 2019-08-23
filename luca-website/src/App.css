@@ -47,6 +47,22 @@ body{
   background-color: #F8F8F8;
 }
 
+.hiw-title-phone {
+  display: none;
+}
+
+.firsticon-container {
+  display: none;
+}
+
+.secondicon-container {
+  display: none;
+}
+
+.thirdicon-container {
+  display: none;
+}
+
 .hiw-title-box {
   /* margin-left: 30px; */
   font-size: 50px;
@@ -644,12 +660,14 @@ body{
     }
 
     .hiw-luca-logo-phone {
+      display: block;
       margin-left: 0.1rem;
       margin-right: -0.3rem;
       height: 1.8rem;
     }
 
     .firsticon-container {
+      display: block;
       /* background-color: orange; */
       height: 25%;
       width: 100%;
@@ -666,6 +684,7 @@ body{
     }
 
     .secondicon-container {
+      display: block;
       /* background-color: orange; */
       height: 25%;
       width: 100%;
@@ -683,6 +702,7 @@ body{
     }
 
     .thirdicon-container {
+      display: block;
       /* background-color: orange; */
       height: 25%;
       width: 100%;

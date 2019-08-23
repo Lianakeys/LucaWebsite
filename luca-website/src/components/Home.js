@@ -90,8 +90,15 @@ class Home extends React.Component {
           <a name="hiw"></a>
             <div className="hiw-title-box">
               <h6 className="hiw-title">
+                How <img src={LucaLOGO} className="hiw-luca-logo" alt="Luca Logo" /> Works{" "}
+              </h6>
+              <h6 className="hiw-title-phone">
                 How <img src={LucaLOGO} className="hiw-luca-logo-phone" alt="Luca Logo" /> Works{" "}
               </h6>
+            </div>
+
+            <div className="icon-container">
+              <img src={hiwIconFull} className="hiw-icon" alt="Luca Logo" />
             </div>
           {/* <HowItWorks /> */}
             <div className="firsticon-container">
