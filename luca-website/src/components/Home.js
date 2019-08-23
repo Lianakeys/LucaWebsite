@@ -59,8 +59,8 @@ class Home extends React.Component {
                 ensuring the integrity of the data
               </h5>
               <form className="phone-form-inline" action="/"> 
-                    <input type="email" id="phone-email" placeholder="Your email" name="email"></input>
-                </form>
+                    <input type="email" id="phone-emaill" placeholder="Your email" name="email"></input>
+              </form>
 
               <button className="phone-home-button">
                 <a className="getstarted-phone" href="https://luca.ledgerium.net/register"><h2 id="get-phone">Get started for free</h2></a>
