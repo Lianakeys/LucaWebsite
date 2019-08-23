@@ -252,7 +252,7 @@ body{
 
 .back-to-top {
   margin-top: 6rem;
-  height: 10%;
+  height: 30%;
   width: 100%;
   /* background-color: purple; */
   display: flex;
@@ -312,7 +312,7 @@ body{
 /* social media box */
 
 .footer-social-media-container {
-  height: 30%;
+  height: 60%;
   width: 100%;
   /* background-color: purple; */
   display: flex;
