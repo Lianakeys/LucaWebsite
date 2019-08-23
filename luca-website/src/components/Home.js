@@ -26,6 +26,9 @@ import finger from './finger.png'
 import myobbutton from "./MYOBbutton-phone.svg";
 import xerobutton from "./Xerobutton-phone.svg";
 import heroimage from "./Hero-image.svg";
+import firsthiw from "./first-hiw.svg";
+import secondhiw from "./secondhiw-icon.svg";
+import thirdhiw from "./thirdhiw-icon.svg";
 
 
 
@@ -70,16 +73,15 @@ class Home extends React.Component {
             <a className="MYOBbutton-outer-phone" href="https://login.myob.com/Account/RegisterOrganizationAsNewUser?client_id=essentials-frontend&redirect_uri=%2Foauth2%2Fauthorize%3Fresponse_type%3Did_token%2Btoken%26client_id%3Dessentials-frontend%26redirect_uri%3Dhttps%253a%252f%252fessentials.myob.com.au%252fLA%252fapp.htm%26resource%3Dcaca4a6d-1ed1-4e83-9d7a-6b294596a93b%2Bpay-item%2Bsingle-touch-payroll%2Binvoice-reminders%2Bpayday%2Bf4f42f8b-7d48-483a-869d-d0f4d830a666%26scope%3Dopenid%2Bemail%2Bphone%2Buser.register.trial%26state%3D83262b5a-28e5-4ed5-b924-708f0d36e049_eyJsb2dpblN0YXRlIjp7InR5cGUiOiJ1c2VyX3JlZ2lzdHJhdGlvbiIsInByb2R1Y3RJZCI6IjExIn0sInJlc291cmNlIjoiY2FjYTRhNmQtMWVkMS00ZTgzLTlkN2EtNmIyOTQ1OTZhOTNiIHBheS1pdGVtIHNpbmdsZS10b3VjaC1wYXlyb2xsIGludm9pY2UtcmVtaW5kZXJzIHBheWRheSBmNGY0MmY4Yi03ZDQ4LTQ4M2EtODY5ZC1kMGY0ZDgzMGE2NjYifQ%253d%253d%26nonce%3D09b4faab-30ef-45f3-9ea3-d0e536b09822%26branding_id%3Dessentials-au%26_ga%3D2.43303973.1260740423.1561083607-2140870890.1561083607%26client-request-id%3D9ac3621e-9322-4df6-82d3-3255bbf5fadc%26x-client-sku%3Djs%26x-client-ver%3D1.0.0&branding_id=essentials-au">
               <img src={myobbutton} alt="hero" className="MYOBbutton-image-phone" />
             </a>
-          </div>
-          <div className="Xerobutton-phone">
-            <a className="XERObutton-outer-phone" href="https://www.xero.com/au/signup/?xtid=x30luca">
-              <img src={xerobutton} alt="hero" className="XERObutton-image-phone" />
-            </a>
-          </div>
+            </div>
+            <div className="Xerobutton-phone">
+              <a className="XERObutton-outer-phone" href="https://www.xero.com/au/signup/?xtid=x30luca">
+                <img src={xerobutton} alt="hero" className="XERObutton-image-phone" />
+              </a>
+            </div>
           </div>
           {/* <div className="luca-home-notes-container">
           </div> */}
-          
         </div>
         <div className="hero-image-container">
           <img src={heroimage} alt="hero" className="hero-image-phone" />
@@ -88,13 +90,19 @@ class Home extends React.Component {
           <a name="hiw"></a>
             <div className="hiw-title-box">
               <h6 className="hiw-title">
-              How <img src={LucaLOGO} className="hiw-luca-logo" alt="Luca Logo" /> Works{" "}
+                How <img src={LucaLOGO} className="hiw-luca-logo-phone" alt="Luca Logo" /> Works{" "}
               </h6>
             </div>
           {/* <HowItWorks /> */}
-          <div className="icon-container">
-            <img src={hiwIconFull} alt="hero" className="hiw-icon" />
-          </div>
+            <div className="firsticon-container">
+              <img src={firsthiw} alt="hero" className="firsthiw-icon" />
+            </div>
+            <div className="secondicon-container">
+              <img src={secondhiw} alt="hero" className="secondhiw-icon" />
+            </div>
+            <div className="thirdicon-container">
+              <img src={thirdhiw} alt="hero" className="thirdhiw-icon" />
+            </div>
         </div>
         <div className="Pricingsection">
         <a name="pricing"></a>
