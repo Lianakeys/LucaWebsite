@@ -609,17 +609,17 @@ body{
 
     .hero-image-container {
       display: block;
-      height: 45vh;
+      height: 44vh;
       width: 100%;
       /* background-color: purple; */
       display: flex;
       justify-content: flex-end;
-      /* align-items: flex-end; */
-      /* margin-top: 5rem; */
+      /* align-items: flex-start; */
+      margin-top: -4rem;
     }
 
     .hero-image-phone {
-      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
       height: 90%;
       width: 90%;
       margin-right: 0.1rem;
