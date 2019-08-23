@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d674fe26847236d565d47ab3afa645ae",
+    "revision": "fe2044ec4a439252a7186f3450e074f9",
     "url": "/LucaWebsite/index.html"
   },
   {
-    "revision": "85b21e741468c7207ebb",
-    "url": "/LucaWebsite/static/css/main.4eacfc1f.chunk.css"
+    "revision": "ae5736644431e53bc028",
+    "url": "/LucaWebsite/static/css/main.781af253.chunk.css"
   },
   {
-    "revision": "28e989a094848fccfef8",
-    "url": "/LucaWebsite/static/js/2.cac9caf6.chunk.js"
+    "revision": "1b6695333ee507073fbf",
+    "url": "/LucaWebsite/static/js/2.f6578a86.chunk.js"
   },
   {
-    "revision": "85b21e741468c7207ebb",
-    "url": "/LucaWebsite/static/js/main.475bd798.chunk.js"
+    "revision": "ae5736644431e53bc028",
+    "url": "/LucaWebsite/static/js/main.8bf2395a.chunk.js"
   },
   {
     "revision": "b6a4c9bad745af943c7e",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LucaWebsite/static/media/MYOB-font.72374352.svg"
   },
   {
+    "revision": "ae5bacddee749ebb22353fdbc9bd0db7",
+    "url": "/LucaWebsite/static/media/MYOBbutton-phone.ae5bacdd.svg"
+  },
+  {
     "revision": "08a3e3cf176c71451825e9bf55cbd170",
     "url": "/LucaWebsite/static/media/Myob-icon.08a3e3cf.svg"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5b676b571203c71d66e385e4d5557eb",
     "url": "/LucaWebsite/static/media/Xero-icon.b5b676b5.svg"
+  },
+  {
+    "revision": "b05aa737a09b92154790e0f35995546f",
+    "url": "/LucaWebsite/static/media/Xerobutton-phone.b05aa737.svg"
   },
   {
     "revision": "edcb1f7dbffc907c5925e849dfbf36bb",
