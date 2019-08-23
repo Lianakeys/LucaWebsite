@@ -442,7 +442,7 @@ body{
     padding: 0;
     
     /* make it look decent enough */
-    background: #232323;
+    background: white;
     /* color: #cdcdcd;
     font-family: "Avenir Next", "Avenir", sans-serif; */
   }
@@ -459,27 +459,27 @@ body{
       display: block;
       height: 80%;
       width: 100%;
-      background-color: red;
+      /* background-color: red; */
     }
 
     .hamburgermenu-container {
       height: 10%;
       display: flex;
       justify-content: flex-end;
-      background-color: green;
+      /* background-color: green; */
       width: 100%;
     }
 
     .hamburgermenu {
       height: 3rem;
-      background-color: blue;
+      /* background-color: blue; */
       width: 3rem;
       margin-top: 1.5rem;
     }
 
     .Lucaforphone-logocontainer {
       height: 15%;
-      background-color: pink;
+      /* background-color: pink; */
       width: 100%;
       display: flex;
       justify-content: center;
@@ -492,8 +492,9 @@ body{
 
     .luca-home-title-container {
       height: 60%;
-      background-color: orange;
+      /* background-color: orange; */
       width: 100%;
+      margin-top: -1.8rem;
       /* display: flex;
       justify-content: center;
       align-items: center; */
@@ -504,7 +505,7 @@ body{
       font-style: normal;
       font-weight: bold;
       font-size: 1.3rem;
-      line-height: 1.5rem;
+      line-height: 2rem;
       text-align: center;
       padding: 0rem 0.1rem 0rem 0.1rem;
       color: #203060;
@@ -586,39 +587,45 @@ body{
     .MYOBbutton-phone {
       height: 10%;
       width: 100%;
-      background-color: #203060;
+      /* background-color: #203060; */
       
     }
 
     .MYOBbutton-image-phone {
       height: 100%;
-      width: 83rem;
+      width: 100%;
     }
 
     .Xerobutton-phone {
       height: 10%;
       width: 100%;
-      background-color: #206025;
+      /* background-color: greenyellow; */
     }
 
     .XERObutton-image-phone {
       height: 100%;
-      width: 83rem;
+      width: 100%;
     }
 
     .hero-image-container {
       display: block;
-      height: 180vh;
-      width: 396vw;
-      background-color: purple;
+      height: 40%;
+      width: 100%;
+      /* background-color: purple; */
       display: flex;
       justify-content: flex-end;
+      align-items: flex-end;
       
     }
 
     .hero-image-phone {
+      /* margin-top: 4rem; */
       height: 90%;
       width: 90%;
+    }
+
+    .HIWsection {
+      background-color: red;
     }
 
 }
