@@ -97,6 +97,11 @@ body{
 
 /* pricing section */
 
+.Pricingsection-forphone {
+  display: none;
+}
+
+
 .Pricingsection {
   height: 100vh;
   width: 100vw;
@@ -131,6 +136,10 @@ body{
 .PIsection {
   height: 100vh;
   width: 100vw;
+}
+
+.Pisection-forphone {
+  display: none;
 }
 
 .Savetimesection {
@@ -709,6 +718,7 @@ body{
       display: flex;
       justify-content: center;
       margin-top: 3rem;
+     
       /* align-items: flex-end; */
     }
     
@@ -731,8 +741,104 @@ body{
       display: none;
     }
 
+    .Pricingsection-forphone {
+      display: block;
+      background-color: purple;
+      height: 55vh;
+      width: 100%;
+      margin-top: 3rem;
+    }
+
+    .pricing-image-box-phone {
+      background-color: #203060;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pricing-icon-phone {
+      height: 90%;
+      width: 90%;
+    }
+
     .PIsection {
       display: none;
+    }
+
+    .Pisection-forphone {
+      display: block;
+      /* background-color: red; */
+      height: 100vh;
+      width: 100%;
+    }
+
+    .pi-image-box {
+      background-color: white;
+      height: 40%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pi-image-phone {
+      height: 82%;
+    }
+
+    .pi-bottom-container {
+      background-color: #203060;
+      height: 60%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .pi-annoying-box-phone {
+      background-color: #50E6C5;
+      height: 80%;
+      width: 80%;
+    }
+
+    .pi-section-title-phone {
+      font-size: 0.8rem;
+      padding: 0rem 0.3rem 0rem 1rem;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2C4584;
+    }
+
+    .pi-notes-phone {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 22px;
+      color: #FFFFFF;
+      padding: 0rem 0.5rem 0rem 1rem;
+    }
+
+    .pi-button-phone {
+        height: 15%;
+        width: 85%;
+        /* font-size: 10%; */
+        background-color: white;
+        color: #203060;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        border-radius: 8px; 
+        /* text-align: center; */
+        box-shadow: none;
+        border: solid #50E3C2 1px;
+    }
+
+    #pi-get-phone {
+      padding: 0rem 0rem 0rem 0rem;
     }
 
     .Savetimesection {

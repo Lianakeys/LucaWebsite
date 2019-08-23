@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./cssComponents/partner-integration.css";
 import Lucawhite from './Luca-white.svg'
-import integration from './pi.svg'
 import rocket from './rocket.png'
+import integration from './pi.svg'
 
 class PartnerIntegration extends Component {
     render() {

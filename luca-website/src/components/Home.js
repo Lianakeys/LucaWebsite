@@ -29,8 +29,9 @@ import heroimage from "./Hero-image.svg";
 import firsthiw from "./first-hiw.svg";
 import secondhiw from "./secondhiw-icon.svg";
 import thirdhiw from "./thirdhiw-icon.svg";
-
-
+import integration from './pi.svg'
+import Lucawhite from './Luca-white.svg'
+import rocket from './rocket.png'
 
 class Home extends React.Component {
     render() {
@@ -112,17 +113,50 @@ class Home extends React.Component {
             </div>
         </div>
         <div className="Pricingsection">
-        <a name="pricing"></a>
-          <div className="pricing-image-box">
-                <img src={pricingicon} alt="hero" className="pricing-icon" />
+          <a name="pricing"></a>
+            <div className="pricing-image-box">
+                  <img src={pricingicon} alt="hero" className="pricing-icon" />
+            </div>
+          <div className="bottom-pricing-box">
+            <img src={dot} alt="hero" className="pricing-dotted-image" />
           </div>
-        <div className="bottom-pricing-box">
-          <img src={dot} alt="hero" className="pricing-dotted-image" />
         </div>
+
+        <div className="Pricingsection-forphone ">
+          <a name="pricing"></a>
+          <div className="pricing-image-box-phone">
+                <img src={pricingicon} alt="hero" className="pricing-icon-phone" />
+          </div>
         </div>
+
         <div className="PIsection">
         <PartnerIntegration />
         </div>
+
+        <div className="Pisection-forphone">
+          <div className="pi-image-box">
+            <img src={integration} alt="hero" className="pi-image-phone" />
+          </div>
+          <div className="pi-bottom-container">
+            <div className="pi-annoying-box-phone">
+                
+                  <h6 className="pi-section-title-phone">
+                    <img src={Lucawhite} alt="hero" className="pi-image-phone" /> integrates into your existing accounting software
+                  </h6>
+                  <div className="pi-notes-phone">
+                  {" "}
+                  Integrating both platforms means you get two way data sharing.  This way you will always be in able see the latest information on the state of your accounts.
+                  </div>
+                  <button className="pi-button-phone">
+                      <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="pi-get-phone">Connect now <span><img src={rocket} alt="hero" className="rocket" /></span></h2></a>
+                  </button>
+               
+            </div>
+                    
+          </div>
+        </div>
+
+
         <div className="Savetimesection">
         <Savetime />
         </div>
