@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LucaWebsite/static/css/main.b07e0c2a.chunk.css",
-    "main.js": "/LucaWebsite/static/js/main.c9f1e573.chunk.js",
-    "main.js.map": "/LucaWebsite/static/js/main.c9f1e573.chunk.js.map",
+    "main.css": "/LucaWebsite/static/css/main.c7811c75.chunk.css",
+    "main.js": "/LucaWebsite/static/js/main.765c702f.chunk.js",
+    "main.js.map": "/LucaWebsite/static/js/main.765c702f.chunk.js.map",
     "runtime~main.js": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js",
     "runtime~main.js.map": "/LucaWebsite/static/js/runtime~main.9ba4cac1.js.map",
-    "static/js/2.f6578a86.chunk.js": "/LucaWebsite/static/js/2.f6578a86.chunk.js",
-    "static/js/2.f6578a86.chunk.js.map": "/LucaWebsite/static/js/2.f6578a86.chunk.js.map",
+    "static/js/2.312a09f6.chunk.js": "/LucaWebsite/static/js/2.312a09f6.chunk.js",
+    "static/js/2.312a09f6.chunk.js.map": "/LucaWebsite/static/js/2.312a09f6.chunk.js.map",
     "index.html": "/LucaWebsite/index.html",
-    "precache-manifest.b78b6fa70fade557fb189b1c37bc38d7.js": "/LucaWebsite/precache-manifest.b78b6fa70fade557fb189b1c37bc38d7.js",
+    "precache-manifest.a936ef2411f1fd4e82dfde17d8385847.js": "/LucaWebsite/precache-manifest.a936ef2411f1fd4e82dfde17d8385847.js",
     "service-worker.js": "/LucaWebsite/service-worker.js",
-    "static/css/main.b07e0c2a.chunk.css.map": "/LucaWebsite/static/css/main.b07e0c2a.chunk.css.map",
+    "static/css/main.c7811c75.chunk.css.map": "/LucaWebsite/static/css/main.c7811c75.chunk.css.map",
     "static/media/Hero-image.svg": "/LucaWebsite/static/media/Hero-image.3fe543a8.svg",
     "static/media/Luca-logo.svg": "/LucaWebsite/static/media/Luca-logo.33925c15.svg",
     "static/media/Luca-white.svg": "/LucaWebsite/static/media/Luca-white.1bd3ea11.svg",
@@ -26,6 +26,7 @@
     "static/media/comingsoon-pic.svg": "/LucaWebsite/static/media/comingsoon-pic.a5d987fd.svg",
     "static/media/dot.svg": "/LucaWebsite/static/media/dot.1431afde.svg",
     "static/media/facebook.svg": "/LucaWebsite/static/media/facebook.17c31ac0.svg",
+    "static/media/first-hiw.svg": "/LucaWebsite/static/media/first-hiw.1f9e12fc.svg",
     "static/media/hiw-icon-full.svg": "/LucaWebsite/static/media/hiw-icon-full.51acfdcf.svg",
     "static/media/insta.svg": "/LucaWebsite/static/media/insta.f8983fb4.svg",
     "static/media/invoice.svg": "/LucaWebsite/static/media/invoice.385ef3a5.svg",
@@ -37,6 +38,8 @@
     "static/media/pricing.svg": "/LucaWebsite/static/media/pricing.0faa179d.svg",
     "static/media/rocket.png": "/LucaWebsite/static/media/rocket.e9f8365f.png",
     "static/media/savetime.svg": "/LucaWebsite/static/media/savetime.0b2e0ab9.svg",
+    "static/media/secondhiw-icon.svg": "/LucaWebsite/static/media/secondhiw-icon.d2ebaf1b.svg",
+    "static/media/thirdhiw-icon.svg": "/LucaWebsite/static/media/thirdhiw-icon.f2d7e9da.svg",
     "static/media/twitter.svg": "/LucaWebsite/static/media/twitter.928cf816.svg"
   }
 }
