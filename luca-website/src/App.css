@@ -36,6 +36,9 @@ body{
   display: none;
 }
 
+.hero-image-container {
+  display: none;
+}
 
 /* // hiw section */
 .HIWsection {
