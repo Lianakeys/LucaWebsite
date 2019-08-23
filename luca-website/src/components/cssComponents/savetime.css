@@ -1,7 +1,12 @@
 .savetime-page{
-  height: 100%;
-  width: 100%;
-  /* background-color: blue; */
+  font-family: 'Open sans', sans-serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  margin-top: -3rem;
 }
 
 .save-time-section {

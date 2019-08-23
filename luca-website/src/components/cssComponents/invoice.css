@@ -1,3 +1,15 @@
+.invoice-page{
+  font-family: 'Open sans', sans-serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  margin-top: -3rem;
+}
+
+
 .invoice-section {
     height: 90vh;  
     width: 100%;

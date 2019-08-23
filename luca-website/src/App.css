@@ -21,8 +21,8 @@ body{
 
 .Navbar {
   position: fixed;
-  /* background-color: red; */
-  height: 14vh;
+  background-color: white;
+  height: 11.5vh;
   width: 100vw;
 }
 
@@ -717,6 +717,14 @@ body{
       height: 120%;
       width: 80%;
       /* margin-left: 0.8rem; */
+    }
+
+    .hiw-title {
+      display: none;
+    }
+
+    .icon-container {
+      display: none;
     }
 
     .Pricingsection {

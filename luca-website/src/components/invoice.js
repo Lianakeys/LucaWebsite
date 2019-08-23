@@ -9,7 +9,7 @@ import finger from "./finger.png";
 class Invoice extends React.Component {
   render() {
     return (
-      <div className="home-page">
+      <div className="invoice-page">
         <div className="home section ">
 
           <div className="section-content">

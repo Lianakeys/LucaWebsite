@@ -10,7 +10,7 @@ import finger from "./finger.png";
 class Savetime extends React.Component {
   render() {
     return (
-      <div className="home-page">
+      <div className="savetime-page">
         <div className="home section ">
           <div className="section-title-box-left">
             <h6 className="savetime-section-title">
