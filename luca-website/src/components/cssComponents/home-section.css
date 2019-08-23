@@ -115,6 +115,7 @@
         -webkit-transform: translateY(-3px);
         transform: translateY(-3.5px);
         transition: transform .3s ease;
+        color: #203060;
       }
 
       .finger {

@@ -83,6 +83,10 @@
     font-style: normal;
     font-weight: 600;
   }
+
+  .link-register:hover {
+      color: #203060;
+  }
   
   .navbarbutton:hover {
     
@@ -95,6 +99,8 @@
      -o-animation: bounce 2.5s infinite; 
   
   }
+
+
   
   @-webkit-keyframes bounce {
     0%,  
