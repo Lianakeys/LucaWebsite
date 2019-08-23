@@ -26,9 +26,14 @@ body{
   width: 100vw;
 }
 
+
 .Homesection {
   height: 100vh;
   width: 100vw;
+}
+
+.HomeforPhone-container {
+  display: none;
 }
 
 /* // hiw section */
@@ -455,15 +460,82 @@ body{
       height: 10rem;
       background-color: blue;
       width: 10rem;
+      margin-top: 6rem;
     }
 
     .Lucaforphone-logocontainer {
-      height: 20rem;
+      height: 13rem;
       background-color: pink;
       width: 100%;
       display: flex;
       justify-content: center;
     }
 
+    .luca-logo-phone {
+      height: 13rem;
+    }
 
+    .luca-home-title-container {
+      height: 90rem;
+      background-color: orange;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .luca-section-title {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 5.5rem;
+      line-height: 9rem;
+      text-align: center;
+      padding: 0rem 5rem 0rem 5rem;
+      color: #203060;
+      
+    }
+
+    .phone-form-inline {
+
+    }
+
+    .phone-home-button {
+      height: 7rem;
+      width: 50rem;
+      background-color: #50E3C2;
+      color: #203060;
+      /* display: flex;
+      justify-content: center; */
+      margin-left: 1.5rem;
+      margin-top: 2rem;
+      border-radius: 8px; 
+      /* text-align: center; */
+      box-shadow: none;
+      border: solid #50E3C2 1px;
+    }
+
+    #phone-email {
+
+    }
+    /* .luca-home-notes-container {
+      height: 30rem;
+      background-color: olivedrab;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+
+    .luca-home-notes {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3.5rem;
+      line-height: 160%;
+      text-align: center;
+      padding: 0rem 5rem 0rem 5rem;
+      color: rgba(35, 44, 68, 0.78);
+      
+    }
 }

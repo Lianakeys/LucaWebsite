@@ -3,7 +3,6 @@
 .partner-integration-page {
     font-family: 'Open sans', sans-serif;
     height: 45rem;
-   
     /* width: 100vw;  */
     /* background-color: red; */
   }
@@ -27,9 +26,9 @@
       /* background-color: purple; */
       float: left;
       display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
   }
 
     .pi-left-box {
@@ -66,6 +65,12 @@
         z-index: 10;
       } 
 
+      .rocket {
+        height: 1rem;
+        margin-left: 10px;
+        padding-bottom: -20px;
+        /* background-color: red; */
+      }
 
       .pi-section-title-box {
         padding-left: 140px;
@@ -97,7 +102,7 @@
       }
       
       .pi-button {
-        height: 56px;
+        height: 60px;
         width: 180px;
         font-size: 10px;
         background-color: white;

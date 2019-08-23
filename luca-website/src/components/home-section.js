@@ -8,6 +8,7 @@ import myobfont from "./MYOB-font.svg";
 import xerofont from "./XEROfont.svg";
 import myobbutton from "./MYOB-button.svg";
 import xerobutton from "./Xero-button.svg";
+import finger from "./finger.png";
 
 class HomeSection extends React.Component {
   render() {
@@ -32,7 +33,7 @@ class HomeSection extends React.Component {
                 </form>
 
                 <button className="home-button">
-                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started for free<span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
+                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started for free<span role="img"><img src={finger} alt="hero" className="finger" /></span></h2></a>
                 </button>
 
             </div>

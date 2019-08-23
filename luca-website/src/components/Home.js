@@ -45,8 +45,28 @@ class Home extends React.Component {
             </div>
           </div>
           <div className="Lucaforphone-logocontainer">
-            <img src={LucaLOGO} className="hiw-luca-logo" alt="Luca Logo" />
+            <img src={LucaLOGO} className="luca-logo-phone" alt="Luca Logo" />
           </div>
+          <div className="luca-home-title-container">
+            <h6 className="luca-section-title">
+              The single source of truth for all transactions{" "}
+              <div className="luca-greenbox"></div>
+              <h5 className="luca-home-notes">
+                <strong>Luca+</strong> makes transactions simpler, faster and smarter, whilst
+                ensuring the integrity of the data
+              </h5>
+              <form className="phone-form-inline" action="/"> 
+                    <input type="email" id="phone-email" placeholder="Your email" name="email"></input>
+                </form>
+
+                <button className="phone-home-button">
+                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started for free<span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
+                </button>
+            </h6>
+          </div>
+          {/* <div className="luca-home-notes-container">
+              
+          </div> */}
         </div>
         <div className="HIWsection">
           <a name="hiw"></a>
@@ -161,7 +181,7 @@ class Home extends React.Component {
               <p className="copyright-font">© Copyright 2019 Blockledger | Terms of Service | Privacy & Security</p>
             </div>
             <div className="footer-lowestbox">
-              <p className="most-bottom-font">Made with ❤️ by The Block Ledger</p>
+              <p className="most-bottom-font">Made with ♥ by The Block Ledger</p>
             </div>
           </div>  
           {/* <Footer /> */}

@@ -92,7 +92,7 @@
       
       .home-button {
           height: 56px;
-          width: 240px;
+          width: 260px;
           background-color: #50E3C2;
           color: #203060;
           /* display: flex;
@@ -117,6 +117,11 @@
         transition: transform .3s ease;
       }
 
+      .finger {
+        height: 1rem;
+        margin-left: 10px;
+      }
+
      #get-1 {
          /* padding: -1rem 1rem 0rem 0rem; */
          padding-left: 0.5rem;
@@ -131,7 +136,6 @@
                 color: green;  */
      }
         
-
 
 
        .email-form { 

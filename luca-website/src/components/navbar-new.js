@@ -11,7 +11,7 @@ class Navbar extends Component {
 
         <div className="navbar-container">
             <div className="logo-box">
-              <img src={LucaLOGO} className="logoimage" alt="Luca Logo" />
+            <Link className="navlink" to="/Home"><img src={LucaLOGO} className="logoimage" alt="Luca Logo" /></Link>
             </div>
             <span className="navbox-for-four">
                 <ul>

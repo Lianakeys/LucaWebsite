@@ -91,7 +91,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="footer-bottom-grid">                 
                     <div className="copyright-terms-box">
-                        <p className="most-bottom-font">Made with ❤️ by The Block Ledger</p>
+                        <p className="most-bottom-font">Made with ♥ by The Block Ledger</p>
                     </div>
                 </div>
             </div>

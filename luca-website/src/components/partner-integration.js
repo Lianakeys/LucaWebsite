@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./cssComponents/partner-integration.css";
 import Lucawhite from './Luca-white.svg'
 import integration from './pi.svg'
+import rocket from './rocket.png'
 
 class PartnerIntegration extends Component {
     render() {
@@ -29,7 +30,7 @@ class PartnerIntegration extends Component {
                             Integrating both platforms means you get two way data sharing.  This way you will always be in able see the latest information on the state of your accounts.
                             </div>
                             <button className="pi-button">
-                                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="pi-get-1">Connect now <span role="img" className="finger-pointer" aria-label="finger">🚀</span></h2></a>
+                                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="pi-get-1">Connect now <span><img src={rocket} alt="hero" className="rocket" /></span></h2></a>
                             </button>
                         </div>
                     </div>

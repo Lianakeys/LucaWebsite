@@ -5,6 +5,7 @@ import "./cssComponents/magic.css";
 import luca from "../luca.jpeg";
 import magic from "./magic.svg";
 import dot from "./dot.svg";
+import finger from "./finger.png";
 
 class Magic extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class Magic extends React.Component {
             
 
                 <button className="magic-button">
-                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span role="img" className="finger-pointer" aria-label="finger">👉🏻</span></h2></a>
+                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span role="img"><img src={finger} alt="hero" className="finger" /></span></h2></a>
                 </button>
           
             
