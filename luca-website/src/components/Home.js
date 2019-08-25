@@ -32,6 +32,11 @@ import thirdhiw from "./thirdhiw-icon.svg";
 import integration from './pi.svg'
 import Lucawhite from './Luca-white.svg'
 import rocket from './rocket.png'
+import savetimephone from './savetime-phone.svg'
+import invoicephone from './invoice-phone.svg'
+import remindersphone from './reminders-phone.svg'
+import magicphone from './gift-phone.svg'
+import partnerimage from './partners.svg'
 
 class Home extends React.Component {
     render() {
@@ -67,7 +72,7 @@ class Home extends React.Component {
               </form>
 
               <button className="phone-home-button">
-                <a className="getstarted-phone" href="https://luca.ledgerium.net/register"><h2 id="get-phone">Get started for free</h2></a>
+                <a className="getstarted-phone" href="https://luca.ledgerium.net/register"><h2 id="get-phone">GET STARTED FOR FREE</h2></a>
               </button>
             </h6>
             <div className="MYOBbutton-phone">
@@ -160,6 +165,87 @@ class Home extends React.Component {
         <div className="Savetimesection">
         <Savetime />
         </div>
+
+        <div className="fourmainsections-phone">
+          <div className="savetime-section">
+            <img src={savetimephone} alt="hero" className="savetime-phone-icon" />
+          </div>
+          <div className="savetime-words">
+            <h6 className="savetime-title-phone">
+              Save <span className="time">time</span> and <span className="cost">cost</span> as manual entry is no longer required 
+           
+              <div className="savetime-notes-phone">
+              Luca+ creates an audit trail to monitor and track all transactions which have occurred so the data between
+              both platforms syncs in realtime.  
+              </div>
+
+              <button className="phone-savetime-button">
+                <a className="getstarted-phone-savetime" href="https://luca.ledgerium.net/register"><h2 id="get-phone-savetime">Get Started</h2></a>
+              </button>
+            </h6>
+          </div>
+
+          <div className="invoice-section-phone">
+            <img src={invoicephone} alt="hero" className="invoice-phone-icon" />
+          </div>
+          <div className="invoice-words">
+            <h6 className="invoice-title-phone">
+               Invoices are <span className="time">secure</span> and <span className="cost">direct</span> 
+           
+              <div className="invoice-notes-phone">
+              Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
+              </div>
+
+              <button className="phone-invoice-button">
+                <a className="getstarted-phone-invoice" href="https://luca.ledgerium.net/register"><h2 id="get-phone-invoice">Get Started</h2></a>
+              </button>
+            </h6>
+          </div>
+
+        <div className="reminders-section-phone">
+            <img src={remindersphone} alt="hero" className="savetime-phone-icon" />
+          </div>
+          <div className="reminders-words">
+            <h6 className="savetime-title-phone">
+              Automatic <span className="time">reminders</span> to make sure your customers pay you faster
+           
+              <div className="reminders-notes-phone">
+              As well as reminders for you to avoid late payment fees. You won’t miss paying any single invoice anymore.    
+              </div>
+
+              <button className="phone-reminders-button">
+                <a className="getstarted-phone-reminders" href="https://luca.ledgerium.net/register"><h2 id="get-phone-reminders">Get Started</h2></a>
+              </button>
+            </h6>
+          </div>
+
+          <div className="magic-section-phone">
+            <img src={magicphone} alt="hero" className="magic-phone-icon" />
+          </div>
+          <div className="magic-words">
+            <h6 className="magic-title-phone">
+              <img src={LucaLOGO} className="luca-magic-phone" alt="Luca Logo" />  is <span className="time">FREE</span> to use
+           
+              <div className="magic-notes-phone">
+              Yes, you read that right. It’s free to use!
+              </div>
+
+              <button className="phone-magic-button">
+                <a className="getstarted-phone-magic" href="https://luca.ledgerium.net/register"><h2 id="get-phone-magic">Get Started</h2></a>
+              </button>
+            </h6>
+          </div>
+
+          <div className="slider-image-phone">
+            <img src={partnerimage} className="partner-image" alt="Luca Logo" />
+          </div>
+
+
+
+
+
+        </div>
+       
         <div className="Invoicesection">
           
           <Invoice />
