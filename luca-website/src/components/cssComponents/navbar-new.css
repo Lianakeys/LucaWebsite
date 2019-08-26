@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100&display=swap');
 
 .navbar-container {
-
     height: 100%;
     width: 100%;
     /* background-color: green; */
@@ -42,9 +41,9 @@
   font-weight: 600;
   text-decoration: none;
   /* padding: 12px 10px 12px 12px; */
-  font-size: 18px;
+  font-size: 0.9rem;
   margin: 0.5rem;
-  margin-right: 2rem;
+  /* margin-right: 1rem; */
   color: #203060;
 }
 
@@ -64,8 +63,8 @@
     font-weight: 600;
     background-color: white;
     border-radius: 8px;
-    height: 50px;
-    width: 140px;
+    height: 2.5rem;
+    width: 7rem;
     left: 13px;
     right: 36px;
     font-size: 18px;
