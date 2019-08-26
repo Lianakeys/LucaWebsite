@@ -1201,7 +1201,8 @@ body{
       height: 15vh;
       background-color: #203060;
       display: flex; 
-      align-items: flex-start; 
+      align-items: flex-start;
+      justify-content: center; 
     
     }
 
@@ -1319,7 +1320,6 @@ body{
 
     .detailsboxcontainer-phone {
       margin-top: 2rem;
-      margin-left: 1.45rem;
       height: 20vh;
       width: 40vh;
       background-color: white;
