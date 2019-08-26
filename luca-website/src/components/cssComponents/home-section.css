@@ -130,7 +130,7 @@
          /* padding-top: -10rem; */
          /* font-size: 3rem; */
          font-style: normal;
-         font-weight: 600px;
+         font-weight: 500;
          box-shadow: none;
          color: #203060;
          /* border: solid #50E3C2;
@@ -197,6 +197,7 @@
     text-decoration: none;
     color: #203060;
     font-family: 'Roboto';
+    font-weight: 200;
   }
 
   .MYOB {
@@ -372,6 +373,7 @@
     .home-button {
       height: 2.5rem;
       width: 7rem;
+      font-weight: 400;
     }
 
     #get-1 {
