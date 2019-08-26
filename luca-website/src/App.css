@@ -172,6 +172,10 @@ body{
   width: 100vw;
 }
 
+.footer-phone-section {
+  display: none;
+}
+
 .Footersection {
   height: 120vh;
   width: 100vw;
@@ -1175,6 +1179,7 @@ body{
     }
 
     .footer-phone-section {
+      display: block;
       /* background-color: blue; */
       height: 37vh;
       width: 100%;
