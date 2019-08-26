@@ -1171,11 +1171,13 @@ body{
     .slider-image-phone {
       /* background-color: red; */
       height: 5%;
+
     }
 
     .partner-image {
       height: 105%;
       width: 105%;
+     
     }
 
     .footer-phone-section {
@@ -1183,7 +1185,7 @@ body{
       /* background-color: blue; */
       height: 37vh;
       width: 100%;
-      margin-top: 30rem;
+      margin-top: 35rem;
     }
 
     .Footersection {
