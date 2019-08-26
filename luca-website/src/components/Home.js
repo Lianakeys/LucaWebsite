@@ -193,7 +193,7 @@ class Home extends React.Component {
                Invoices are <span className="time">secure</span> and <span className="cost">direct</span> 
            
               <div className="invoice-notes-phone">
-              Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
+                Powered by blockchain technology, you can be confident the invoices you receive are genuine and not a scam or fraud.
               </div>
 
               <button className="phone-invoice-button">
@@ -239,13 +239,68 @@ class Home extends React.Component {
           <div className="slider-image-phone">
             <img src={partnerimage} className="partner-image" alt="Luca Logo" />
           </div>
-
-
-
-
-
         </div>
-       
+       <div className="footer-phone-section">
+         <div className="footer-phone-container">
+          <div className="footertopbox">
+            <div className="detailsboxcontainer-phone">
+                <h2 className="footer-details-notes-phone">
+                  <img src={LucaLOGO} className="details-luca-logo-phone" alt="Luca Logo" /> is a free app, you won’t be charged
+                </h2>
+                  <div className="footer-email-form-phone">
+                      <form className="form-inline-phone" action="/"> 
+                          <input type="email" id="footer-email-phone" placeholder="Your email" name="email"></input>
+                      </form>
+                      <button className="footer-button-container-phone">
+                      <a className="getstarted-phone" href="https://luca.ledgerium.net/register"><p id="footer-button-phone">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 top-20"/></p></a>
+                      </button>
+                  </div>
+            </div>
+          </div>
+          <div className="footermiddlebox">
+            <div className="footer-socialmediabox-phone">
+                <div className="footer-social-media-container-phone">
+                    <a href="https://twitter.com/Luca_Accounting"><img src={twitter} className="twitter-phone" alt="Luca Logo" /></a>
+                    <a href="https://www.instagram.com/lucaaccounting/"><img src={insta} className="insta-phone" alt="Luca Logo" /></a>
+                    <a href="https://www.facebook.com/Luca.Accounting/?pageid=2516020795076745&ftentidentifier=2516120181733473&padding=0"><img src={facebook} className="facebook-phone" alt="Luca Logo" /></a>
+                </div>
+            </div>
+          </div>
+          <div className="footerbottombox">
+            <div className="back-to-top-phone">
+                <a href="#top"><FontAwesomeIcon className="chevron-up-phone" icon={faChevronUp} transform="" size="1x"/></a>
+            </div>
+            <ul className="footer-navbox-phone">
+                  <li className="footer-navitem-phone">
+                      <a href="https://docs.theblockledger.net/" className="navlink-phone" to="/Support">
+                          Support
+                      </a>
+                  </li>
+                  <li className="footer-navitem-phone">
+                      <a href="https://www.theblockledger.net/blog/" className="navlink-phone" to="/Blog">
+                          Blog
+                      </a>
+                  </li>
+
+                  <li className="footer-navitem-phone">
+                      <Link className="navlink-phone" to="/comingsoon">
+                          About
+                      </Link>
+                  </li>
+                  <li className="footer-navitem-phone">
+                      <Link className="navlink-phone"to="/comingsoon">
+                          Contact us
+                      </Link>
+                  </li>           
+                </ul>  
+            <div className="copyright-box-phone">
+              <p className="copyright-font-phone">© Copyright 2019 Blockledger | Terms of Service | Privacy & Security</p>
+            </div>
+          </div>
+        </div>
+       </div>   
+
+
         <div className="Invoicesection">
           
           <Invoice />
