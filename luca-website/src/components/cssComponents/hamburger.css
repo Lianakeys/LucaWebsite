@@ -14,7 +14,7 @@
  {
    text-decoration: none;
    color: #232323;
-   
+   font-family: 'Open sans', sans-serif;
    transition: color 0.3s ease;
  }
  
@@ -25,6 +25,7 @@
  
  #menuToggle
  {
+    font-family: 'Open sans', sans-serif;
    display: block;
    position: relative;
    top: 30px;
@@ -39,6 +40,7 @@
  
  #menuToggle input
  {
+    font-family: 'Open sans', sans-serif;
    display: block;
    width: 40px;
    height: 32px;
@@ -58,6 +60,7 @@
   */
  #menuToggle span
  {
+    font-family: 'Open sans', sans-serif;
    display: block;
    width: 1.8rem;
    height: 0.3rem;
@@ -121,6 +124,7 @@
   */
  #menu
  {
+   font-family: 'Open sans', sans-serif;
    position: absolute;
    width: 100px;
    margin: -100px 0 0 -180px;
@@ -139,8 +143,10 @@
  
  #menu li
  {
+   font-family: 'Open sans', sans-serif;
    padding: 10px 0;
-   font-size: 22px;
+   font-size: 1rem;
+   color: #203060;
  }
  
  /*

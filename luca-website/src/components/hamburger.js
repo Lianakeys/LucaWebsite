@@ -1,5 +1,6 @@
 import React from "react";
 import "./cssComponents/hamburger.css";
+import { Link } from "react-router-dom";
 
 class Hamburger extends React.Component {
     render() {
@@ -18,11 +19,12 @@ class Hamburger extends React.Component {
             
            
             <ul id="menu">
-              <a href="#"><li>Home</li></a>
-              <a href="#"><li>About</li></a>
-              <a href="#"><li>Info</li></a>
-              <a href="#"><li>Contact</li></a>
-              <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+              <a href="#"><li>Why us?</li></a>
+              <a href="https://docs.theblockledger.net/"><li>BlockLedger</li></a>
+              <a href="#"><Link className="navlink-phone" to="/comingsoon"><li>Contact us</li> </Link></a>
+              <a href="#pricing"><li>Pricing</li></a>
+              <a href="https://luca.ledgerium.net/login" target="_blank"><li>Login</li></a>
+              <a href="https://luca.ledgerium.net/register" target="_blank"><li>Sign up</li></a>
             </ul>
           </div>
         </nav>
