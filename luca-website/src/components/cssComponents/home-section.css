@@ -104,6 +104,7 @@
           box-shadow: none;
           border: solid #50E3C2 1px;
           /* padding-bottom: 10px; */
+        
       }
       /* flex-direction: column; */
  
@@ -195,6 +196,7 @@
   .getstarted {
     text-decoration: none;
     color: #203060;
+    font-family: 'Roboto';
   }
 
   .MYOB {

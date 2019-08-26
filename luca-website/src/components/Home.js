@@ -353,10 +353,12 @@ class Home extends React.Component {
                       </a>
                   </li>
                   
-                  <div className="footer-logo-box">
+                  <a href="#top">
+                    <div className="footer-logo-box">
                       <img src={LucaLOGO} className="footer-luca-logo" alt="Luca Logo" />
                       {/* <SVG /> */}
-                  </div>
+                    </div>
+                  </a>
                   <li className="footer-navitem">
                       <Link className="navlink" to="/comingsoon">
                           About
@@ -384,10 +386,10 @@ class Home extends React.Component {
            </div>    
             </div>
             <div className="second-last-copyright-box">
-              <p className="copyright-font">© Copyright 2019 Blockledger | Terms of Service | Privacy & Security</p>
+              <p className="copyright-font">© Copyright 2019 Blockledger |<a href="https://www.theblockledger.net/wp-content/uploads/2019/06/luca-terms-of-service.pdf">Terms of Service</a> |<a href="https://www.theblockledger.net/wp-content/uploads/2019/06/Luca_Security_Compliance_Privacy.pdf"> Privacy & Security </a></p>
             </div>
             <div className="footer-lowestbox">
-              <p className="most-bottom-font">Made with ♥ by The Block Ledger</p>
+              <a href="https://theblockledger.net/"><p className="most-bottom-font">Made with ♥ by The Block Ledger</p></a>
             </div>
           </div>  
           {/* <Footer /> */}

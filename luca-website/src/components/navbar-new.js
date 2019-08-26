@@ -21,7 +21,7 @@ class Navbar extends Component {
                     </a>
                 </li>
                 <li className="navlink">
-                    <a href="https://docs.theblockledger.net/" className="navlink" to="/HelpCentre">
+                    <a href="https://theblockledger.net/" className="navlink" to="/HelpCentre">
                         Block Ledger
                     </a>
                 </li>
