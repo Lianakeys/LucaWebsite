@@ -248,9 +248,9 @@ class Home extends React.Component {
                   <img src={LucaLOGO} className="details-luca-logo-phone" alt="Luca Logo" /> is a free app, you won’t be charged
                 </h2>
                   <div className="footer-email-form-phone">
-                      <form className="form-inline-phone" action="/"> 
+                      {/* <form className="form-inline-phone" action="/"> 
                           <input type="email" id="footer-email-phone" placeholder="Your email" name="email"></input>
-                      </form>
+                      </form> */}
                       <button className="footer-button-container-phone">
                       <a className="getstarted-phone" href="https://luca.ledgerium.net/register"><p id="footer-button-phone">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 top-20"/></p></a>
                       </button>

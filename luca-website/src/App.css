@@ -1242,7 +1242,7 @@ body{
       border-left: 1.5px solid !important;
       border-right: transparent !important;
       border-bottom: 1.5px solid !important;
-      /* border: 1.5px solid !important; */
+      border: 1.5px solid !important;
       font-weight: 400;
       color: #50E3C2;
       box-shadow: none;
@@ -1260,9 +1260,9 @@ body{
       color: #203060;
       /* display: flex; */
       /* justify-content: flex-start; */
-      margin-left: -10px;
+      /* margin-left: 10px; */
       margin-top: 0.05rem;
-      border-radius: 0px 5px 5px 0px; 
+      border-radius: 5px 5px 5px 5px; 
       text-align: center;
       box-shadow: none;
       border: solid #50E3C2 1px;
