@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 import "./cssComponents/contactus.css";
 import comingSoon from "./comingsoon-pic.svg";
 import Navbar from "./navbar-new";
-import { contactus } from "./contactus.svg";
+import { contactus } from "./contactus.png";
+import {first} from "./contactus-icon-1.svg";
+import { second } from "./contactus-icon-2.svg";
+import { third } from "./contactus-icon-3.svg";
 
 class Coming extends Component {
     render() {
@@ -17,7 +20,9 @@ class Coming extends Component {
                         </div>
 
                         <div className="three-icon-box">
-
+                            <img src={ first } alt="hero" className="contactus-image" />
+                            <img src={ second } alt="hero" className="contactus-image" />
+                            <img src={ third } alt="hero" className="contactus-image" />
                         </div>
                     </div>
                 </div>
