@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2e7f41240e3c65e4041aef44e4e3968",
+    "revision": "8e34d4a73ed4beff84175284771a99e1",
     "url": "/index.html"
   },
   {
-    "revision": "dadacffaeeacc4e26012",
-    "url": "/static/css/main.e944be1d.chunk.css"
+    "revision": "7cead430d8ff24c1a2b4",
+    "url": "/static/css/main.1d1a9a6b.chunk.css"
   },
   {
-    "revision": "897925db4186894f7392",
-    "url": "/static/js/2.99c46b0c.chunk.js"
+    "revision": "73c152ea29cccc2dcd9f",
+    "url": "/static/js/2.25bf0d0d.chunk.js"
   },
   {
-    "revision": "dadacffaeeacc4e26012",
-    "url": "/static/js/main.23b7fc83.chunk.js"
+    "revision": "7cead430d8ff24c1a2b4",
+    "url": "/static/js/main.631b6242.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1431afdeed078fa4c90876d17054c858",
     "url": "/static/media/dot.1431afde.svg"
+  },
+  {
+    "revision": "1a273cc429ed9cbcbfe922e8901a554b",
+    "url": "/static/media/emoji-pricing.1a273cc4.svg"
   },
   {
     "revision": "17c31ac08cab1129350e53890776b496",
