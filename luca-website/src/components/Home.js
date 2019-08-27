@@ -37,6 +37,7 @@ import invoicephone from './invoice-phone.svg'
 import remindersphone from './reminders-phone.svg'
 import magicphone from './gift-phone.svg'
 import partnerimage from './partners.svg'
+import emoji from './emoji-pricing.svg'
 
 class Home extends React.Component {
     render() {
@@ -120,7 +121,26 @@ class Home extends React.Component {
         <div className="Pricingsection">
           <a name="pricing"></a>
             <div className="pricing-image-box">
-                  <img src={pricingicon} alt="hero" className="pricing-icon" />
+              <div className="pricing-container">
+                <h6 className="pricing-top-title">
+                  Pricing
+                  
+                </h6>
+                <div className="emoji-box-pricing">
+                  <img src={emoji} alt="hero" className="emoji" />
+                </div>
+                <div className="pricing-free-box">
+                  <h4>Free</h4>
+                </div>
+                <div className="pricing-notes">
+                  <h7 className="free-notes">Yes, you read that right. It's free to use!</h7>
+                </div>
+                <div className="button-container-pricing">
+                  <button className="home-button-pricing">
+                    <a className="getstarted-pricing" href="https://luca.ledgerium.net/register"><h2 id="get-1-pricing">Sign up</h2></a>
+                  </button>
+                </div>
+              </div>
             </div>
           <div className="bottom-pricing-box">
             <img src={dot} alt="hero" className="pricing-dotted-image" />
@@ -155,7 +175,7 @@ class Home extends React.Component {
                   <button className="pi-button-phone">
                       <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="pi-get-phone">Connect now <span><img src={rocket} alt="hero" className="rocket" /></span></h2></a>
                   </button>
-               
+
             </div>
                     
           </div>

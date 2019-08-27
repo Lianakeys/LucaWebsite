@@ -24,6 +24,7 @@ body{
   background-color: white;
   height: 11.5vh;
   width: 100vw;
+  z-index: 4;
 }
 
 
@@ -115,6 +116,114 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+
+.pricing-container {
+  font-family: 'Open sans', sans-serif;
+  background-color: white;
+  margin-top: 6rem;
+  height: 140%;
+  width: 30%;
+  border-radius: 2%;
+  z-index: 1;
+  box-shadow: -6.49236px -6.49236px 23.5348px rgba(194, 207, 241, 0.109488), 4.86927px 4.86927px 23.5348px rgba(194, 207, 241, 0.220533);
+}
+
+
+.emoji-box-pricing {
+  /* background-color: blue; */
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.emoji {
+  height: 90%;
+  width: 90%;
+}
+
+.pricing-free-box {
+  background-color: white;
+  color: #203060;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-start; */
+  font-size: 3.2rem;
+  margin-top: -4rem;
+}
+
+.pricing-top-title {
+  /* background-color: pink; */
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #203060;
+  margin-top: 0.6rem;
+  
+}
+
+.pricing-notes {
+  /* background-color: green; */
+  color: #203060;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.free-notes {
+  /* background-color: pink; */
+  height: 25%;
+  width: 49%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.home-button-pricing {
+  height: 60px;
+  width: 260px;
+  background-color: #50E3C2;
+  color: #203060;
+  border-radius: 8px; 
+  /* text-align: center; */
+  box-shadow: none;
+  border: solid #50E3C2 1px;
+  /* padding-bottom: 10px; */
+}
+
+.home-button-pricing:hover{
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3.5px);
+  transition: transform .3s ease;
+  color: #203060;
+}
+
+
+.button-container-pricing {
+  height: 10%;
+  width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstarted-pricing {
+
+}
+
+#get-1-pricing {
+
+  font-style: normal;
+  font-weight: 600;
+  box-shadow: none;
+  color: #203060;
 }
 
 .pricing-icon {
