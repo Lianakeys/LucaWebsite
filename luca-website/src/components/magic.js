@@ -29,7 +29,7 @@ class Magic extends React.Component {
             
 
                 <button className="magic-button">
-                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span role="img"><img src={finger} alt="hero" className="finger" /></span></h2></a>
+                  <a className="getstarted-magic" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span role="img"><img src={finger} alt="hero" className="finger" /></span></h2></a>
                 </button>
           
             

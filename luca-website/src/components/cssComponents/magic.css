@@ -61,6 +61,22 @@
 
 }
 
+
+#savetime-get-1 {
+  font-family: 'Roboto';
+  text-decoration: none;
+  color: #203060;
+  font-family: 'Roboto';
+  font-weight: 200;
+}
+
+.getstarted-magic {
+  text-decoration: none;
+  color: #203060;
+  font-family: 'Roboto';
+  font-weight: 200;
+}
+
 @-webkit-keyframes bounce {
   0%,  
   100% {

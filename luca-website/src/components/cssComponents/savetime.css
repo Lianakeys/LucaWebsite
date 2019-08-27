@@ -108,6 +108,12 @@
 
 }
 
+
+.getstarted {
+  font-family: 'Roboto';
+}
+
+
 @-webkit-keyframes bounce {
   0%,  
   100% {
