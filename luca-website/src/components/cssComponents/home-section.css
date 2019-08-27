@@ -160,7 +160,7 @@
         padding-left: 0;
         box-shadow: none;
         text-decoration: none;
-        letter-spacing: 2px;
+        /* letter-spacing: 2px; */
         font-size: 0.8rem;
           /* border-bottom: solid black 5px; */
       }

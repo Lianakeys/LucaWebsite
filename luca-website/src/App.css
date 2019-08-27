@@ -262,10 +262,12 @@ body{
   border: solid #50E3C2 1px;
 }
 
+
 #footer-button {
   
   padding-left: 21px;
-  font-size: 16px;
+  padding-bottom: 1.2rem;
+  font-size: 14.5px;
   font-weight: bold;
   box-shadow: none;
   font-family: 'Open sans', sans-serif;
@@ -466,7 +468,27 @@ body{
     display: none;
   }
 } */
+.tos-link:hover {
+  color: #50E3C2;
+}
 
+.pas-link:hover {
+  color: #50E3C2;
+}
+
+
+.getstarted-footer {
+  text-decoration: none;
+  color: #203060;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.getstarted-footer:hover {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
 
 @media only screen and (max-width: 500px) {
 

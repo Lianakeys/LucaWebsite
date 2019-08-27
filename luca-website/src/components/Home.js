@@ -325,7 +325,7 @@ class Home extends React.Component {
                           <input type="email" id="footer-email" placeholder="Your email" name="email"></input>
                       </form>
                       <button className="footer-button-container">
-                      <a className="getstarted" href="https://luca.ledgerium.net/register"><p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 top-20"/></p></a>
+                        <a className="getstarted-footer" href="https://luca.ledgerium.net/register"><p id="footer-button">Start free  <FontAwesomeIcon icon={faChevronRight} transform="right-4 top-20"/></p></a>
                       </button>
                   </div>
               </div>
@@ -386,7 +386,7 @@ class Home extends React.Component {
            </div>    
             </div>
             <div className="second-last-copyright-box">
-              <p className="copyright-font">© Copyright 2019 Blockledger |<a href="https://www.theblockledger.net/wp-content/uploads/2019/06/luca-terms-of-service.pdf">Terms of Service</a> |<a href="https://www.theblockledger.net/wp-content/uploads/2019/06/Luca_Security_Compliance_Privacy.pdf"> Privacy & Security </a></p>
+              <p className="copyright-font">© Copyright 2019 Blockledger |<a className="tos-link" href="https://www.theblockledger.net/wp-content/uploads/2019/06/luca-terms-of-service.pdf">Terms of Service</a> |<a className="pas-link" href="https://www.theblockledger.net/wp-content/uploads/2019/06/Luca_Security_Compliance_Privacy.pdf"> Privacy & Security </a></p>
             </div>
             <div className="footer-lowestbox">
               <a href="https://theblockledger.net/"><p className="most-bottom-font">Made with ♥ by The Block Ledger</p></a>
