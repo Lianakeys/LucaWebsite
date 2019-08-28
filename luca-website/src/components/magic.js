@@ -26,12 +26,11 @@ class Magic extends React.Component {
             Luca+ is a FREE app! You won’t be charged for any reasons. 
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
-            
-
+                <a className="getstarted" href="https://luca.ledgerium.net/register">
                 <button className="magic-button">
-                  <a className="getstarted-magic" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span role="img"><img src={finger} alt="hero" className="finger" /></span></h2></a>
+               <h2 id="savetime-get-1">Get started </h2><img src={finger} alt="hero" className="finger-savetime" />
                 </button>
-          
+            </a>
             
           </div>
          

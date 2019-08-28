@@ -66,12 +66,13 @@
     width: 180px;
     background-color: white;
     color: #203060;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 100px;
     margin-top: 3.5rem;
     border-radius: 8px; 
-    /* text-align: center; */
+    text-align: center;
     box-shadow: none;
     border: solid #50E3C2 1px;
     /* padding-bottom: 10px; */
@@ -94,6 +95,28 @@
   margin-top: 10rem;
   height: 50vh;
   /* margin-right: 8rem; */
+}
+
+.fingerbox {
+  height: 15%;
+  width: 15%;
+  /* margin-top: 10px; */
+  background-color: green;
+  margin-left: 0px;
+}
+
+.finger-savetime {
+  height: 45%;
+  width: 15%;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  /* background-color: red; */
+  /* margin-left: 5px; */
+}
+
+#savetime-get-1 {
+ margin: 0;
+ margin-top: 3.8px;
 }
 
 .savetime-button:hover {

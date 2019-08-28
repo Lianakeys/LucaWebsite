@@ -68,7 +68,7 @@
       .rocket {
         height: 1rem;
         margin-left: 10px;
-        padding-bottom: -20px;
+        margin-top: 10px;
         /* background-color: red; */
       }
 
@@ -103,13 +103,13 @@
       
       .pi-button {
         height: 60px;
-        width: 180px;
+        width: 185px;
         font-size: 10px;
         background-color: white;
         color: #203060;
       
-          /* display: flex;
-          justify-content: center; */
+          display: flex;
+          justify-content: center;
           /* margin-left: 1.5rem; */
           margin-top: 2rem;
           border-radius: 8px; 
@@ -244,10 +244,13 @@
 
     .pi-button {
       height: 2rem;
-      width: 6rem;
+      width: 7rem;
       font-size: 0.35rem;
       margin-top: -0.1rem;
+      
     }
+
+    
 
 
     .pi-right-box {

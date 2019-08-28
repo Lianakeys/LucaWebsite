@@ -32,10 +32,12 @@ class HomeSection extends React.Component {
                     <input type="email" id="emaill" placeholder="Your email" name="email"></input>
                 </form>
 
-                <button className="home-button">
-                  <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="get-1">Get started for free<span role="img"><img src={finger} alt="hero" className="finger" /></span></h2></a>
-                </button>
-
+         
+                <a className="getstarted" href="https://luca.ledgerium.net/register">
+                  <button className="home-button">
+                    <h2 id="get-1">Get started for free</h2><img src={finger} alt="hero" className="finger-home" />
+                  </button>
+                </a>
             </div>
             {/* <button className="Myob-outer-button">
               <button className="MYOB-button">

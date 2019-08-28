@@ -81,13 +81,13 @@
     width: 180px;
     background-color: white;
     color: #203060;
-    /* margin-left: -20rem; */
-    /* display: flex;
-    justify-content: center; */
-    /* margin-left: 1.5rem; */
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+    margin-top: 1.5rem;
     border-radius: 8px; 
-    /* text-align: center; */
+    text-align: center;
     box-shadow: none;
     border: solid #50E3C2 1px;
     /* padding-bottom: 10px; */

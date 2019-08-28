@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900&display=swap');
 
+:root {
+  --ease-in: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  --ease-out: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+
+
 .home-page {
     font-family: 'Open sans', sans-serif;
     height: auto;
@@ -95,6 +102,9 @@
           width: 260px;
           background-color: #50E3C2;
           color: #203060;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           /* display: flex;
           justify-content: center; */
           margin-left: 1.5rem;
@@ -104,10 +114,16 @@
           box-shadow: none;
           border: solid #50E3C2 1px;
           /* padding-bottom: 10px; */
-        
+          
       }
       /* flex-direction: column; */
- 
+      .finger-home {
+        height: 45%;
+        width: 10%;
+        /* margin-top: 10px; */
+        margin-left: 10px;
+      }
+
       .home-button:hover {
         /* box-shadow: */
         /* 1px 1px #53a7ea,
@@ -119,10 +135,7 @@
         color: #203060;
       }
 
-      .finger {
-        height: 1rem;
-        margin-left: 10px;
-      }
+   
 
      #get-1 {
          /* padding: -1rem 1rem 0rem 0rem; */
@@ -130,6 +143,7 @@
          /* padding-top: -10rem; */
          /* font-size: 3rem; */
          font-style: normal;
+         margin-top: 17px;
          font-weight: 500;
          box-shadow: none;
          color: #203060;
@@ -184,6 +198,8 @@
     margin-right: 6rem;
     /* height: 600px; */
     margin-bottom: 4rem;
+    transform-origin: top left;
+  
   }
 
   .Myob-icon {

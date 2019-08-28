@@ -17,16 +17,16 @@ class Savetime extends React.Component {
               Save <span className="time">time</span> and <span className="cost">cost</span> as manual entry is no longer required 
             </h6>
             <div className="savetime-notes">
-            Luca+ creates an audit trail to monitor and track all transactions which have occurred so the data between
-            both platforms syncs in realtime.  
+              Luca+ creates an audit trail to monitor and track all transactions which have occurred so the data between
+              both platforms syncs in realtime.  
             </div>
             {/* <a class="button" href="#" role="button">Get started for free</a> */}
             
-
+            <a className="getstarted" href="https://luca.ledgerium.net/register">
                 <button className="savetime-button">
-                <a className="getstarted" href="https://luca.ledgerium.net/register"><h2 id="savetime-get-1">Get started <span ><img src={finger} alt="hero" className="finger" /></span></h2></a>
+               <h2 id="savetime-get-1">Get started </h2><img src={finger} alt="hero" className="finger-savetime" />
                 </button>
-          
+            </a>
             
           </div>
           <div className="section-content">
